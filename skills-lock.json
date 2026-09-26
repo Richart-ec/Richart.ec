@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "baoyu-article-illustrator": {
+      "source": "NousResearch/hermes-agent",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "optional-skills/creative/baoyu-article-illustrator/SKILL.md",
+      "computedHash": "f1a7d0b6330c1e77aace5389a7b8f78e568deae61537bb581ad6541e7026ee02"
+    }
+  }
+}
