@@ -7,6 +7,12 @@
       "sourceType": "github",
       "skillPath": "optional-skills/creative/baoyu-article-illustrator/SKILL.md",
       "computedHash": "f1a7d0b6330c1e77aace5389a7b8f78e568deae61537bb581ad6541e7026ee02"
+    },
+    "frontend-design": {
+      "source": "ceilf6/FrontAgent",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "fb19a4a50e534cc0616dad495b71788b8d902ed8670e287b86bc1b3e66d29912"
     }
   }
 }
