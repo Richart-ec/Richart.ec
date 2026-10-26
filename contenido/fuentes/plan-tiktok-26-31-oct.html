@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Plan TikTok Oli&amp;Eli · 26–31 oct 2026</title>
+<style>
+@font-face { font-family: "Montserrat"; font-weight: 400; src: url(assets/fonts/Montserrat-400.ttf); }
+@font-face { font-family: "Montserrat"; font-weight: 600; src: url(assets/fonts/Montserrat-600.ttf); }
+@font-face { font-family: "Montserrat"; font-weight: 800; src: url(assets/fonts/Montserrat-800.ttf); }
+@page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+:root { --negro: #141414; --rojo: #C8102E; --gris: #f2f2f2; --linea: #dcdcdc; --texto: #1d1d1d; --suave: #5c5c5c; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Montserrat", "Liberation Sans", Arial, sans-serif; color: var(--texto); font-size: 9.6pt; line-height: 1.45; background: #fff; }
+h1, h2, h3 { font-weight: 800; color: var(--negro); margin: 0; line-height: 1.2; }
+h2 { font-size: 15pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 2.5px solid var(--rojo); }
+h3 { font-size: 11pt; margin: 5mm 0 2mm; }
+p { margin: 0 0 2.5mm; }
+ul, ol { margin: 0 0 3mm; padding-left: 5mm; }
+li { margin-bottom: 1.2mm; }
+strong { font-weight: 800; }
+.salto { break-before: page; }
+.nota { color: var(--suave); font-size: 8.4pt; }
+.etiqueta { display: inline-block; background: var(--rojo); color: #fff; font-weight: 800; font-size: 7.6pt; letter-spacing: .06em; padding: 1mm 2.2mm; border-radius: 1mm; text-transform: uppercase; }
+
+/* Portada */
+.portada { background: var(--negro); color: #fff; margin: -16mm -15mm 0; padding: 20mm 15mm 14mm; }
+.portada .marca { font-size: 9pt; letter-spacing: .25em; color: #ff4d64; font-weight: 600; }
+.portada h1 { color: #fff; font-size: 25pt; margin: 4mm 0 3mm; }
+.portada .sub { font-size: 11.5pt; color: #e6e6e6; }
+.portada .meta { margin-top: 6mm; font-size: 9pt; color: #bdbdbd; }
+.portada .barra { height: 4px; width: 38mm; background: var(--rojo); margin-top: 6mm; }
+
+.resumen { border: 2px solid var(--negro); border-radius: 2mm; padding: 4mm 5mm; margin: 6mm 0 5mm; }
+.resumen h3 { margin-top: 0; }
+.resumen ul { margin-bottom: 0; }
+
+.cifras { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-bottom: 5mm; }
+.cifra { background: var(--gris); border-radius: 2mm; padding: 3.5mm 3mm; border-top: 3px solid var(--rojo); }
+.cifra b { display: block; font-size: 17pt; font-weight: 800; color: var(--negro); line-height: 1.1; }
+.cifra span { font-size: 7.8pt; color: var(--suave); }
+
+/* Tablas */
+table { width: 100%; border-collapse: collapse; margin: 1mm 0 4mm; font-size: 8.8pt; }
+th { background: var(--negro); color: #fff; font-weight: 600; text-align: left; padding: 2mm 2.4mm; }
+td { border-bottom: 1px solid var(--linea); padding: 2mm 2.4mm; vertical-align: top; }
+tr:nth-child(even) td { background: #fafafa; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+.total td { font-weight: 800; background: #fff2f4 !important; border-top: 2px solid var(--rojo); }
+
+/* Tarjetas de videos */
+.videos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.4mm; }
+.video { display: grid; grid-template-columns: 17mm 1fr; gap: 2.2mm; border: 1px solid var(--linea); border-radius: 2mm; padding: 2mm; break-inside: avoid; }
+.video img { width: 17mm; height: 30.2mm; object-fit: cover; border-radius: 1.2mm; background: #ddd; }
+.video .cuenta { font-weight: 800; font-size: 8pt; color: var(--negro); word-break: break-all; }
+.video .datos { font-size: 7.4pt; color: var(--rojo); font-weight: 600; margin: .5mm 0 1mm; }
+.video p { font-size: 7.4pt; line-height: 1.35; margin: 0 0 1mm; }
+.video p.porque { color: var(--suave); }
+
+.lecciones { font-size: 8.8pt; } .lecciones li { margin-bottom: 1.1mm; }
+.caja { background: var(--gris); border-left: 4px solid var(--rojo); padding: 3mm 4mm; border-radius: 0 2mm 2mm 0; margin: 3mm 0 4mm; break-inside: avoid; }
+.caja p:last-child, .caja ul:last-child { margin-bottom: 0; }
+
+/* Guiones */
+.guion { border: 1.5px solid var(--negro); border-radius: 2mm; margin: 0 0 4.5mm; break-inside: avoid; }
+.guion .cab { background: var(--negro); color: #fff; padding: 2.5mm 4mm; display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+.guion .cab b { font-size: 11pt; }
+.guion .cab span { font-size: 8.2pt; color: #ff8394; font-weight: 600; white-space: nowrap; }
+.guion .cuerpo { padding: 3mm 4mm; }
+.guion .ficha { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; margin-bottom: 2.5mm; }
+.guion .ficha div { background: var(--gris); border-radius: 1.5mm; padding: 1.6mm 2.2mm; font-size: 7.8pt; }
+.guion .ficha div b { display: block; font-size: 7pt; color: var(--suave); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.guion table { font-size: 8.4pt; margin-bottom: 2mm; }
+.guion table td:first-child { width: 17mm; font-weight: 800; color: var(--rojo); white-space: nowrap; }
+.texto-pantalla { display: inline-block; background: var(--rojo); color: #fff; font-weight: 800; padding: .3mm 1.8mm; border-radius: 1mm; }
+
+/* Aprobación */
+.check { list-style: none; padding-left: 0; }
+.check li { padding: 2mm 0 2mm 9mm; position: relative; border-bottom: 1px solid var(--linea); margin: 0; }
+.check li::before { content: ""; position: absolute; left: 0; top: 2mm; width: 4.5mm; height: 4.5mm; border: 1.6px solid var(--negro); border-radius: .8mm; }
+.firmas { display: grid; grid-template-columns: 1fr 1fr; gap: 12mm; margin-top: 12mm; }
+.firmas div { border-top: 1.5px solid var(--negro); padding-top: 2mm; font-size: 8.6pt; }
+</style>
+</head>
+<body>
+
+<!-- ============ PORTADA ============ -->
+<section class="portada">
+  <div class="marca">OLI&amp;ELI TU BARBERÍA · TIKTOK</div>
+  <h1>Plan de contenido<br>Semana del 26 al 31 de octubre 2026</h1>
+  <div class="sub">Documento para revisión y aprobación de la CEO</div>
+  <div class="meta">Preparado por Ricardo · Lunes 26 de octubre de 2026</div>
+  <div class="barra"></div>
+</section>
+
+<div class="resumen">
+  <h3>En una página</h3>
+  <ul>
+    <li><strong>Objetivo:</strong> traer clientes hombres de 14 a 35 años a la barbería, sobre todo para el corte de caballero adulto.</li>
+    <li><strong>Esta semana:</strong> 3 videos (martes 27, jueves 29 y sábado 31 de Halloween).</li>
+    <li><strong>Desde noviembre:</strong> 12 videos al mes (3 por semana: viernes, sábado y domingo), con un solo día de grabación.</li>
+    <li><strong>Cada lunes:</strong> Ricardo presenta el plan de la semana y la CEO lo aprueba.</li>
+    <li><strong>Tiempo de Ricardo:</strong> unas 4 h 35 min esta semana y unas 7 h por semana desde noviembre.</li>
+    <li><strong>Ya hecho:</strong> el link de reservas está en la bio de TikTok.</li>
+    <li><strong>Qué se pide:</strong> aprobar las decisiones de la última página.</li>
+  </ul>
+</div>
+
+<div class="cifras">
+  <div class="cifra"><b>249.8 K</b><span>vistas del video más visto (corte "El corte que quiere mi clienta")</span></div>
+  <div class="cifra"><b>Seg. 2</b><span>momento en que se va la mayoría en todos los videos analizados</span></div>
+  <div class="cifra"><b>20–21 h</b><span>hora de mayor actividad de los seguidores</span></div>
+  <div class="cifra"><b>51 / 49 %</b><span>seguidores hombres / mujeres</span></div>
+</div>
+
+<h3>Lo que aprendimos de la cuenta</h3>
+<table>
+  <tr><th>Dato real (TikTok Studio)</th><th>Qué hacemos</th></tr>
+  <tr><td>En los 3 videos analizados, la mayoría deja de ver en el <strong>segundo 2</strong></td><td>Abrir con el resultado o con una frase fuerte en pantalla, nunca con un título descriptivo</td></tr>
+  <tr><td>La gente se queda unos <strong>9 segundos</strong></td><td>Videos sin voz de 15–20 s. Si son más largos, con voz y subtítulos palabra por palabra</td></tr>
+  <tr><td>El más visto es una <strong>transformación radical</strong> (249.8 K)</td><td>La transformación es el formato principal</td></tr>
+  <tr><td><strong>204 seguidores</strong> de 249.8 K vistas</td><td>Decir "Oli &amp; Eli" en cada video y dar una razón para seguir la cuenta</td></tr>
+  <tr><td>Pico de actividad de <strong>20:00 a 21:00</strong>; todos los días igual de activos (4.6–4.8 K)</td><td>Publicar a las 19:00 (domingos, 18:00)</td></tr>
+  <tr><td>Ninguna barbería de Tumbaco o Cumbayá tiene presencia fuerte en TikTok</td><td>Ocupar ese espacio: #tumbaco #cumbaya y ubicación en cada video</td></tr>
+</table>
+
+<!-- ============ ANÁLISIS ============ -->
+<section class="salto">
+<h2>Qué funciona en Ecuador: 12 videos virales analizados</h2>
+<p>Ricardo eligió 12 videos virales de barberías de <strong>Quito y Guayaquil</strong>. Se analizaron con sus estadísticas públicas y cuadro por cuadro. La imagen de cada tarjeta es lo que se ve en el primer segundo. <strong>La mitad de estos videos supera las 800 mil vistas.</strong></p>
+
+<div class="videos">
+  <div class="video"><img src="assets/hooks/01.jpg" alt=""><div><div class="cuenta">@alebarbervz</div><div class="datos">Quito · 7.7 M vistas · 20 s</div><p><b>Seg. 0:</b> el resultado ya peinado, primer plano de la cara. Sin texto ni voz.</p><p class="porque">El resultado es el hook. Corto y con la reacción del cliente.</p></div></div>
+  <div class="video"><img src="assets/hooks/02.jpg" alt=""><div><div class="cuenta">@chrixs_barber</div><div class="datos">Quito Norte · 540 K · 40 s</div><p><b>Seg. 0:</b> cliente terminado y texto grande "RETOQUE SEMI ONDULACIÓN 50%".</p><p class="porque">Nombra la técnica (se busca) y muestra el resultado de inmediato.</p></div></div>
+  <div class="video"><img src="assets/hooks/03.jpg" alt=""><div><div class="cuenta">@distritobarber593</div><div class="datos">Quito Sur · 433 K · 57 s</div><p><b>Seg. 0:</b> "¿Cuánto gana un barbero en un día en una barbería del sur?"</p><p class="porque">Curiosidad y humor de barberos jóvenes: 472 comentarios.</p></div></div>
+  <div class="video"><img src="assets/hooks/04.jpg" alt=""><div><div class="cuenta">@chrixs_barber</div><div class="datos">Quito · 232 K · 30 s</div><p><b>Seg. 0:</b> detrás de cámaras con un influencer etiquetado.</p><p class="porque">Llega al público del influencer.</p></div></div>
+  <div class="video"><img src="assets/hooks/05.jpg" alt=""><div><div class="cuenta">@jonbarberj</div><div class="datos">Quito · 2.3 M · 62 s</div><p><b>Seg. 0:</b> tijera en acción sobre un cliente joven, con reggaetón en tendencia.</p><p class="porque">Cliente joven, música del momento y técnica de cerca.</p></div></div>
+  <div class="video"><img src="assets/hooks/06.jpg" alt=""><div><div class="cuenta">@jonbarberj</div><div class="datos">Quito · 556 K · 63 s</div><p><b>Seg. 0:</b> el cliente entra bailando; a los 4 s muestra su foto de referencia.</p><p class="porque">Personalidad del cliente y la promesa del corte.</p></div></div>
+  <div class="video"><img src="assets/hooks/07.jpg" alt=""><div><div class="cuenta">@286barberia</div><div class="datos">Guayaquil · 897 K · 60 s</div><p><b>Seg. 0:</b> POV con billetes en la mano: "¿me alcanza para…?", con subtítulos palabra por palabra.</p><p class="porque">Cuenta de solo 7 mil seguidores. Mostrar todo lo que incluye generó 1.346 comentarios.</p></div></div>
+  <div class="video"><img src="assets/hooks/08.jpg" alt=""><div><div class="cuenta">@ermenstudio</div><div class="datos">Guayaquil · 963 K · 59 s</div><p><b>Seg. 0:</b> "El muy trinchudo, lacio…": un problema de cabello muy común.</p><p class="porque">Quien tiene ese cabello se siente aludido y se queda.</p></div></div>
+  <div class="video"><img src="assets/hooks/09.jpg" alt=""><div><div class="cuenta">@barbershopcolombia57</div><div class="datos">Guayaquil · 246 K · 51 s</div><p><b>Seg. 0:</b> POV desde la calle; recorrido con bebidas, mascarilla y servicios.</p><p class="porque">Vende la experiencia, no solo el corte.</p></div></div>
+  <div class="video"><img src="assets/hooks/10.jpg" alt=""><div><div class="cuenta">@ermenstudio</div><div class="datos">Guayaquil · 710 K · 58 s</div><p><b>Seg. 0:</b> el cliente con micrófono: "Me llamó la atención el estilo mood cut".</p><p class="porque">El cliente explica qué quiere y el que mira se identifica.</p></div></div>
+  <div class="video"><img src="assets/hooks/11.jpg" alt=""><div><div class="cuenta">@ermenstudio</div><div class="datos">Guayaquil · 2.0 M · 48 s</div><p><b>Seg. 0:</b> "NO TE HAGAS UN MOOD CUT" sobre fotos de referencia. Audio "This Is Halloween".</p><p class="porque">Lleva la contraria y promete un consejo al final.</p></div></div>
+  <div class="video"><img src="assets/hooks/12.jpg" alt=""><div><div class="cuenta">@ermenstudio</div><div class="datos">Guayaquil · 2.0 M · 55 s</div><p><b>Seg. 0:</b> "¡Deberías probar el Low Taper!" con fotos de referencia y la voz del barbero.</p><p class="porque">Recomendación con el nombre del corte y la autoridad del barbero.</p></div></div>
+</div>
+
+<h3>7 lecciones para Oli&amp;Eli</h3>
+<ol class="lecciones">
+  <li><strong>El segundo 0 es el resultado o una frase grande en pantalla.</strong> Los 12 tienen algo fuerte en el primer segundo y ninguno empieza con un título descriptivo.</li>
+  <li><strong>Nombran el corte:</strong> low taper, mood cut, semi ondulación, sombreado bajo. La gente busca esos nombres.</li>
+  <li><strong>Dos duraciones.</strong> Sin voz, el video es corto: el de 7.7 M dura 20 s. Con la voz del barbero y subtítulos palabra por palabra, llegan a 50–60 s (10 de los 12).</li>
+  <li><strong>El cliente joven es el protagonista:</strong> su cara, su reacción, su foto de referencia, su opinión con micrófono.</li>
+  <li><strong>Mostrar la experiencia vende:</strong> bebidas, mascarilla, asesoría. Oli&amp;Eli ya ofrece bebida y mascarilla de puntos negros.</li>
+  <li><strong>Una cuenta pequeña también se hace viral:</strong> @286barberia tiene 7 mil seguidores y llegó a casi 900 mil vistas. Decide el hook, no el tamaño de la cuenta.</li>
+  <li><strong>Audio:</strong> reggaetón en tendencia y, en octubre, "This Is Halloween".</li>
+</ol>
+<div class="caja"><p><strong>Lo que no copiamos:</strong> precios en pantalla (los precios se ven al reservar), efectos de neón exagerados y menciones a otras plataformas.</p></div>
+</section>
+
+<!-- ============ FORMA DE TRABAJO ============ -->
+<section class="salto">
+<h2>Forma de trabajo desde noviembre: 12 videos al mes</h2>
+<p>Ricardo atiende otros clientes además de Oli&amp;Eli, así que el ritmo tiene que poder sostenerse sin agotamiento. <strong>3 videos por semana</strong> mantienen la cuenta activa y la actividad de la audiencia es igual todos los días. <strong>No se graba material por adelantado:</strong> lo que se graba el jueves se publica esa misma semana.</p>
+
+<h3>Semana tipo</h3>
+<table>
+  <tr><th>Día</th><th>Qué se hace</th><th class="num">Tiempo de Ricardo</th></tr>
+  <tr><td><strong>Lunes</strong></td><td>Revisar las métricas de la semana anterior (20 min), escribir los 3 guiones (50 min) y enviarlos a la CEO. <strong>La CEO aprueba hasta el martes a las 12:00.</strong></td><td class="num">1 h 10 min</td></tr>
+  <tr><td><strong>Jueves</strong> 15:00–18:00</td><td>Grabar los 3 videos aprobados. Es la franja con más clientes, que sirven para las transformaciones.</td><td class="num">3 h</td></tr>
+  <tr><td><strong>Viernes</strong> 9:00–12:00</td><td>Editar los 3 videos y dejarlos programados. Visto bueno de la CEO antes de las 15:00; si no hay respuesta, se publica lo aprobado el lunes.</td><td class="num">3 h</td></tr>
+  <tr><td><strong>Vie 19:00 · Sáb 19:00 · Dom 18:00</strong></td><td>Publicación automática (ya programada). <strong>Eli</strong> responde comentarios en dos bloques: 19:15 y 21:00.</td><td class="num">—</td></tr>
+  <tr class="total"><td colspan="2">Total por semana · unas 29 h al mes para 12–13 videos</td><td class="num">7 h 10 min</td></tr>
+</table>
+<p class="nota">Ritmo mínimo, si una semana se complica: 2 videos (sábado y domingo), unas 5 h esa semana.</p>
+
+<h3>Tiempo de edición por video</h3>
+<table>
+  <tr><th>Tipo de video</th><th>Duración</th><th class="num">Edición</th><th class="num">Programar*</th></tr>
+  <tr><td>Transformación con música, sin voz</td><td>15–20 s</td><td class="num">45 min</td><td class="num">10 min</td></tr>
+  <tr><td>Video con voz y subtítulos palabra por palabra</td><td>40–60 s</td><td class="num">60–75 min</td><td class="num">10 min</td></tr>
+  <tr><td>Sketch o humor con efectos de sonido</td><td>15–30 s</td><td class="num">75–90 min</td><td class="num">10 min</td></tr>
+  <tr><td>Si se usa material de archivo (se suma)</td><td>—</td><td class="num">+20 min de búsqueda</td><td class="num">—</td></tr>
+</table>
+<p class="nota">*Programar incluye portada, descripción, hashtags, ubicación (Tumbaco) y música. Se edita en CapCut con plantillas fijas: recuadro rojo y negro, tipografía y cierre con el nombre.</p>
+
+<h3>Reglas de todos los videos</h3>
+<ul>
+  <li><strong>CTA único:</strong> "Agenda en el link del perfil 👆". En TikTok nunca se nombran otras apps o redes ni se escriben números de teléfono.</li>
+  <li><strong>Segundo 0:</strong> el resultado o una frase fuerte en un recuadro rojo y negro, de 7 palabras como máximo.</li>
+  <li><strong>Nombre del corte</strong> en el texto y en la descripción (low taper, mid fade, burst fade, textured crop…).</li>
+  <li><strong>"Oli &amp; Eli"</strong> en voz o en pantalla, más <strong>#tumbaco #cumbaya #barberiaquito</strong> y la ubicación.</li>
+  <li><strong>Tono:</strong> tuteo, cercano y elegante, con jerga moderada ("pana", "de una", "bacán").</li>
+  <li><strong>Menores de 14 a 17 años:</strong> sin cara visible (nuca, perfil o de espaldas).</li>
+  <li><strong>Mezcla mensual:</strong> 6 transformaciones de hombre, 1 de mujer (solo para alcance), 2 "Elige a tu barbero", 2 de experiencia o educación y 1 de humor.</li>
+</ul>
+</section>
+
+<!-- ============ ESTA SEMANA ============ -->
+<section class="salto">
+<h2>Esta semana: 3 videos (26–31 de octubre)</h2>
+<p>Es la semana de arranque. Los dos primeros videos salen de material que ya existe y se editan hoy; el de Halloween se graba el jueves al cerrar.</p>
+
+<h3>Calendario de edición y publicación</h3>
+<table>
+  <tr><th>Cuándo</th><th>Qué</th><th class="num">Tiempo</th></tr>
+  <tr><td>Hoy lun 26 · 18:30–19:35</td><td>Buscar material, editar y programar el video del <strong>martes</strong></td><td class="num">1 h 05 min</td></tr>
+  <tr><td>Hoy lun 26 · 19:45–21:00</td><td>Buscar material, editar y programar el video del <strong>jueves</strong></td><td class="num">1 h 15 min</td></tr>
+  <tr><td>Hoy lun 26 · 21:00</td><td>Enviar los 2 videos a la CEO</td><td class="num">—</td></tr>
+  <tr><td>Mar 27 · hasta 12:00</td><td>La CEO aprueba. Si pide cambios, Ricardo los hace antes de las 17:00</td><td class="num">—</td></tr>
+  <tr><td><strong>Mar 27 · 19:00</strong></td><td><span class="etiqueta">Publica</span> Elige a tu barbero: Oli, campeona</td><td class="num">—</td></tr>
+  <tr><td><strong>Jue 29 · 19:00</strong></td><td><span class="etiqueta">Publica</span> El corte que quiere mi cliente</td><td class="num">—</td></tr>
+  <tr><td>Jue 29 · 20:15–21:00</td><td>Grabar el video de Halloween al cerrar el local, con las luces bajas</td><td class="num">45 min</td></tr>
+  <tr><td>Vie 30 · 9:00–10:30</td><td>Editar y programar el video de Halloween y enviarlo a la CEO</td><td class="num">1 h 30 min</td></tr>
+  <tr><td>Sáb 31 · hasta 15:00</td><td>La CEO aprueba</td><td class="num">—</td></tr>
+  <tr><td><strong>Sáb 31 · 19:00</strong></td><td><span class="etiqueta">Publica</span> Halloween: el fantasma de Oli &amp; Eli</td><td class="num">—</td></tr>
+  <tr class="total"><td colspan="2">Total de Ricardo esta semana</td><td class="num">4 h 35 min</td></tr>
+</table>
+</section>
+
+<section>
+<div class="guion">
+  <div class="cab"><b>1 · Elige a tu barbero: Oli, campeona</b><span>Martes 27 · 19:00</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración</b>15–20 s, música épica en tendencia</div>
+      <div><b>Material</b>Archivo: videos de la batalla, trofeo y certificado</div>
+      <div><b>Edición</b>Hoy, 1 h 05 min</div>
+    </div>
+    <table>
+      <tr><td>0–2 s</td><td>Oli levantando el trofeo en la premiación (video del evento). Texto: <span class="texto-pantalla">Ganó la batalla de barberos 🏆</span></td></tr>
+      <tr><td>2–9 s</td><td>3 o 4 clips rápidos de Oli cortando en la batalla, al ritmo de la música.</td></tr>
+      <tr><td>9–13 s</td><td>Trofeo y certificado sobre el mostrador del local. Texto: <span class="texto-pantalla">1.er lugar · [evento y año]</span></td></tr>
+      <tr><td>13–18 s</td><td>Oli en el local (foto o video de archivo). Texto: <span class="texto-pantalla">Hoy te corta a ti 💈</span> y cierre "Oli &amp; Eli · Tumbaco".</td></tr>
+      <tr><td>CTA</td><td>"Agenda con Oli en el link del perfil 👆"</td></tr>
+      <tr><td>Descripción</td><td>Campeona en la batalla, perfeccionista en la silla 🏆💈 ¿Te atreves? #OliEliBarber #ladybarber #barberiaquito #tumbaco #cumbaya</td></tr>
+    </table>
+    <p class="nota">Lecciones que aplica: 1 (fuerza en el segundo 0) y 4 (protagonista). Falta confirmar el nombre y el año del evento.</p>
+  </div>
+</div>
+
+<div class="guion">
+  <div class="cab"><b>2 · El corte que quiere mi cliente</b><span>Jueves 29 · 19:00</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración</b>15–20 s, música en tendencia</div>
+      <div><b>Material</b>Archivo: transformación de hombre sin publicar</div>
+      <div><b>Edición</b>Hoy, 1 h 15 min</div>
+    </div>
+    <table>
+      <tr><td>0–2 s</td><td>El resultado final: primer plano de la cara del cliente ya peinado, como el video de 7.7 M. Texto: <span class="texto-pantalla">¿Te harías este [nombre del corte]? 👀</span></td></tr>
+      <tr><td>2–4 s</td><td>Destello de 1 segundo del "antes". Texto: <span class="texto-pantalla">*Su antes 😳</span></td></tr>
+      <tr><td>4–12 s</td><td>3 o 4 planos de proceso al ritmo: máquina, tijera, navaja y peinado con secadora.</td></tr>
+      <tr><td>12–18 s</td><td>Giro de silla y reacción del cliente. Texto: <span class="texto-pantalla">¿Igual a la foto o mejor? 👇</span></td></tr>
+      <tr><td>CTA</td><td>"Agenda en el link del perfil 👆"</td></tr>
+      <tr><td>Descripción</td><td>Me trajo la foto y le dije: de una, vamos a hacerlo 💈 #OliEliBarber #[nombredelcorte] #barberiaquito #tumbaco</td></tr>
+    </table>
+    <p class="nota">Lecciones que aplica: 1, 2 y 4. Si el cliente es menor de edad, se muestra solo nuca y perfil. Si no hay una transformación sin publicar, este video se cancela y la semana queda con 2.</p>
+  </div>
+</div>
+
+<div class="guion">
+  <div class="cab"><b>3 · Halloween: el fantasma de Oli &amp; Eli 👻</b><span>Sábado 31 · 19:00</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración</b>15 s · audio "This Is Halloween"</div>
+      <div><b>Grabación</b>Jueves 29, 20:15–21:00, al cerrar</div>
+      <div><b>Edición</b>Viernes 30, 1 h 30 min</div>
+    </div>
+    <table>
+      <tr><td>0–3 s</td><td>Plano fijo del local en penumbra; la silla vacía gira sola (con un hilo fuera de cuadro). Texto: <span class="texto-pantalla">Grabamos esto anoche en la barbería 😳</span></td></tr>
+      <tr><td>3–6 s</td><td>La máquina se enciende sola sobre el mostrador.</td></tr>
+      <tr><td>6–10 s</td><td>Un cliente sentado en penumbra. Corte de edición: ya tiene un fade perfecto y hay cabello en el piso.</td></tr>
+      <tr><td>10–13 s</td><td>Se encienden las luces y aparece el equipo disfrazado detrás del cliente: "¡Feliz Halloween!".</td></tr>
+      <tr><td>13–15 s</td><td>Texto: <span class="texto-pantalla">En Oli &amp; Eli hasta los fantasmas cortan bien 👻</span> y "Agenda en el link del perfil 👆".</td></tr>
+      <tr><td>Descripción</td><td>¿Quién cortó? 👻💈 Feliz Halloween desde Oli &amp; Eli #halloween #barberia #OliEliBarber #tumbaco</td></tr>
+    </table>
+    <p class="nota">Se necesita: 3 o 4 personas del equipo con un disfraz sencillo (capa, antifaz o sombrero), 1 cliente o barbero con el corte recién hecho e hilo de nailon. El tono es divertido, sin sangre ni sustos fuertes. En el nicho, un video con este mismo audio pasó los 2 M de vistas en octubre.</p>
+  </div>
+</div>
+</section>
+
+<!-- ============ MEDICIÓN Y APROBACIÓN ============ -->
+<section class="salto">
+<h2>Cómo vamos a medir</h2>
+<table>
+  <tr><th>Métrica</th><th>Hoy</th><th>Meta</th></tr>
+  <tr><td>Clientes nuevos que llegan por TikTok</td><td>Sin medir</td><td><strong>10 en noviembre</strong> y 15–20 en diciembre</td></tr>
+  <tr><td>Personas que siguen viendo después del segundo 2</td><td>Menos del 50 %</td><td>Más del 65 %</td></tr>
+  <tr><td>Personas que ven el video completo</td><td>16–24 %</td><td>Más del 30 %</td></tr>
+  <tr><td>Seguidores nuevos por semana</td><td>21</td><td>60 o más</td></tr>
+</table>
+<p><strong>Cómo se mide:</strong> recepción pregunta a cada cliente nuevo "¿Cómo nos conociste?" y anota "TikTok". Cada lunes Ricardo revisa las métricas de cada video y las presenta junto con el plan.</p>
+
+<h2 style="margin-top:8mm">Decisiones para aprobar</h2>
+<ul class="check">
+  <li>Ritmo de <strong>12 videos al mes</strong>: viernes 19:00, sábado 19:00 y domingo 18:00.</li>
+  <li>Ciclo semanal: <strong>lunes</strong> plan y aprobación, <strong>jueves</strong> grabación, <strong>viernes</strong> edición. No se graba por adelantado.</li>
+  <li>Los <strong>3 videos de esta semana</strong> (martes 27, jueves 29 y sábado 31).</li>
+  <li>Grabación de Halloween el <strong>jueves 29 a las 20:15</strong>, con el equipo disfrazado.</li>
+  <li><strong>1 corte de mujer al mes</strong>, solo para atraer alcance.</li>
+  <li>Meta de <strong>10 clientes nuevos por TikTok en noviembre</strong>, medidos en recepción.</li>
+  <li><strong>Eli</strong> responde comentarios en dos bloques de 15 minutos (19:15 y 21:00) los días de publicación.</li>
+</ul>
+
+<h3>Preguntas para la CEO</h3>
+<ol>
+  <li>¿Cuál es el nombre y el año del evento que ganó Oli? (va en el video del martes)</li>
+  <li>¿La barbería hace <strong>ondulación o permanente a hombres</strong>? Aparece en 2 de los 12 virales de Quito.</li>
+  <li>¿Hacen <strong>mood cut</strong> (corte largo en capas para hombre)? Tiene 2 videos de más de 700 mil vistas en el análisis.</li>
+  <li>El <strong>lunes 2 de noviembre es feriado</strong>. ¿La planificación se hace igual ese día o pasa al martes 3?</li>
+</ol>
+
+<div class="firmas">
+  <div>Aprobado por (CEO)<br><br>Fecha:</div>
+  <div>Preparado por: Ricardo<br><br>Fecha: 26/10/2026</div>
+</div>
+</section>
+
+</body>
+</html>
