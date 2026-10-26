@@ -17,8 +17,7 @@ Primera sesión de planificación con la CEO y Ricardo, lunes 26/10/2026.
 | En cámara | Oli, Eli, Kerly, Giovanna, Vanessa, Nicole, Enrique y César (todos cómodos) |
 | Clientes en video | Fácil: casi todos aceptan |
 | Menores (14–17) | **Sin cara visible:** solo nuca, perfil o de espaldas |
-| Link de la bio | **Link directo a Fresha** para que el cliente reserve solo |
-| Número de la barbería | 097 902 4336 |
+| Link de la bio | **Link directo de reservas (ya agregado)**: el cliente agenda solo |
 | Tipo de cuenta | Personal: se pueden usar todas las canciones en tendencia |
 | Cortes a mujeres | **1 al mes**, solo para alcance |
 | Tintes / platinados | "A veces": se graban cuando haya, sin planificarlos |
@@ -32,7 +31,7 @@ Primera sesión de planificación con la CEO y Ricardo, lunes 26/10/2026.
 
 ### Regla de TikTok: nunca nombrar otras plataformas
 
-No se dice "WhatsApp", "Fresha", "Instagram", "YouTube" ni "Facebook" en la voz, los textos, las descripciones o las respuestas. Tampoco se escriben números de teléfono. Siempre se usa:
+En voz, textos, descripciones y respuestas no se nombra ninguna app ni red social externa, ni se escriben números de teléfono. El único CTA permitido es:
 
 - **"Agenda en el link del perfil 👆"**
 - **"Reserva tu hora en nuestro perfil"**
@@ -106,7 +105,7 @@ No se dice "WhatsApp", "Fresha", "Instagram", "YouTube" ni "Facebook" en la voz,
 - Usar **#tumbaco #cumbaya #barberiaquito**.
 - **Agregar la ubicación** en cada publicación.
 
-En Fresha, Oli&Eli aparece con más reseñas que la competencia cercana (1.435 en una de las fichas encontradas) [CONFIRMAR el número actual].
+En su app de reservas, Oli&Eli aparece con más reseñas que la competencia cercana (1.435 en una de las fichas encontradas) [CONFIRMAR el número actual].
 
 > **Tarea para Ricardo:** busca en la app de TikTok "The Cave Barber Shop" y "Barber House Ecuador" y mándame capturas de sus 3 videos con más vistas para compararlos.
 
@@ -241,7 +240,7 @@ Después de grabar, solo el Halloween se edita (30 min). Todo lo demás espera a
    > 💈 Tu barbería en Tumbaco · Quito
    > ✂️ Barberos con título · Todos los días 9:00–20:00
    > 📅 Reserva tu hora aquí 👇
-2. **Link:** reemplazar el link de mensajes por el **link de reservas de Fresha**. La barbería tiene que mostrarse con los barberos y horarios correctos.
+2. **Link de reservas:** ✅ ya está en la bio. Solo revisar que muestre los barberos y horarios correctos.
 3. **Fijados:**
    - el video de 249.8K;
    - el de Oli campeona (cuando salga el martes);
