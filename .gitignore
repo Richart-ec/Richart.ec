@@ -1,0 +1,4 @@
+# Credenciales y datos descargados de TikTok
+tiktok-analytics/.env
+tiktok-analytics/data/
+__pycache__/
