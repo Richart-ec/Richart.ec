@@ -44,6 +44,17 @@ td { border-bottom: 1px solid var(--linea); padding: 2.4mm 3mm; vertical-align: 
 ol.preg li { margin-bottom: 1.5mm; }
 .firmas { display: grid; grid-template-columns: 1fr 1fr; gap: 14mm; margin-top: 12mm; }
 .firmas div { border-top: 1.5px solid var(--negro); padding-top: 2mm; font-size: 9pt; }
+
+.leyenda { font-size: 9pt; color: #5c5c5c; }
+.guionceo { border: 1.5px solid var(--negro); border-radius: 2.5mm; margin-bottom: 4.5mm; overflow: hidden; break-inside: avoid; }
+.guionceo .tit { background: var(--negro); color: #fff; padding: 2.5mm 4mm; display: flex; justify-content: space-between; font-weight: 800; font-size: 10.5pt; }
+.guionceo .tit span:last-child { color: #ff8394; font-weight: 600; font-size: 9pt; }
+.guionceo table { margin: 0; font-size: 8.8pt; }
+.guionceo th { background: var(--gris); color: var(--negro); font-weight: 800; }
+.guionceo td.seg, .guionceo th.seg { width: 17mm; white-space: nowrap; font-weight: 800; color: var(--rojo); }
+.guionceo td:nth-child(2) { width: 52mm; }
+.guionceo td:nth-child(3) { width: 42mm; }
+.txt { display: inline-block; background: var(--rojo); color: #fff; font-weight: 800; padding: .3mm 1.6mm; border-radius: 1mm; font-size: 8.4pt; }
 </style>
 </head>
 <body>
@@ -92,6 +103,52 @@ ol.preg li { margin-bottom: 1.5mm; }
   <tr><td><strong>Recepción y un barbero</strong></td><td>Estar libres 45 minutos para el video 2. Tener lista la bebida y la mascarilla de puntos negros.</td><td>Jueves 29, 16:30</td></tr>
   <tr><td><strong>Todo el equipo</strong></td><td>Venir disfrazado. Disfraces sencillos que no estorben para cortar.</td><td>Sábado 31, 14:00</td></tr>
 </table>
+
+
+<section class="salto">
+<h2>Cómo queda cada video, segundo a segundo</h2>
+<p class="leyenda"><b>Qué se ve:</b> la imagen · <b>Texto:</b> lo que aparece escrito en pantalla · <b>Qué se escucha:</b> la música, la voz en off (grabada aparte) o lo que dice alguien en cámara.</p>
+
+<div class="guionceo">
+  <div class="tit"><span>Video 1 · El corte que quiere mi cliente</span><span>Viernes 30 · 19:00 · 18 s</span></div>
+  <table>
+    <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
+    <tr><td class="seg">0 – 3</td><td>La cara del cliente ya con el corte terminado y peinado.</td><td><span class="txt">¿Te harías este [nombre del corte]? 👀</span></td><td><b>Voz en off (barbero):</b> "Me trajo esta foto y me preguntó: ¿se puede?"</td></tr>
+    <tr><td class="seg">3 – 4</td><td>Cómo llegó: el cabello largo y desordenado.</td><td><span class="txt">*Su antes 😳</span></td><td>Música en tendencia.</td></tr>
+    <tr><td class="seg">4 – 6</td><td>El cliente muestra en su celular la foto del corte que quiere.</td><td>—</td><td><b>Voz en off (barbero):</b> "Y le dije: de una, vamos a hacerlo."</td></tr>
+    <tr><td class="seg">6 – 12</td><td>El corte: máquina, tijera, navaja y peinado con secadora.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">12 – 14</td><td>El barbero gira la silla y se ve el resultado de frente.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">14 – 18</td><td>El cliente se mira al espejo, se toca el cabello y sonríe.</td><td><span class="txt">¿Igual a la foto o mejor? 👇</span><br>Agenda en el link del perfil 👆</td><td><b>Voz en off (barbero):</b> "En Oli &amp; Eli no existe el 'no puedo'."</td></tr>
+  </table>
+</div>
+
+<div class="guionceo">
+  <div class="tit"><span>Video 2 · Tu primera vez en Oli &amp; Eli</span><span>Sábado 31 · 19:00 · 20 s</span></div>
+  <table>
+    <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
+    <tr><td class="seg">0 – 2</td><td>Se abre la puerta del local, como si entrara quien mira el video.</td><td><span class="txt">POV: tu primera vez en Oli &amp; Eli</span></td><td>Música en tendencia.</td></tr>
+    <tr><td class="seg">2 – 4</td><td>Recepción saluda mirando a cámara.</td><td><span class="txt">Te reciben por tu nombre</span></td><td><b>Recepción, en cámara:</b> "¡Bienvenido a Oli &amp; Eli!"</td></tr>
+    <tr><td class="seg">4 – 6</td><td>Le entregan la bebida de cortesía.</td><td><span class="txt">Bebida de cortesía</span></td><td>Música.</td></tr>
+    <tr><td class="seg">6 – 9</td><td>El barbero, frente al espejo, explica qué corte le queda mejor.</td><td><span class="txt">Asesoría antes de cortar</span></td><td><b>Barbero, en cámara:</b> "Con tu forma de cara, te queda mejor esto."</td></tr>
+    <tr><td class="seg">9 – 11</td><td>La máquina cortando, de cerca.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">11 – 16</td><td>Le ponen la mascarilla de puntos negros y luego se la retiran despacio.</td><td><span class="txt">Mascarilla de puntos negros</span></td><td>Música.</td></tr>
+    <tr><td class="seg">16 – 18</td><td>El cliente se mira al espejo y sonríe.</td><td><span class="txt">Y sales así</span></td><td>Música.</td></tr>
+    <tr><td class="seg">18 – 20</td><td>El barbero le choca la mano a la cámara.</td><td>Agenda en el link del perfil 👆</td><td><b>Barbero, en cámara:</b> "Nos vemos en 15 días."</td></tr>
+  </table>
+</div>
+
+<div class="guionceo">
+  <div class="tit"><span>Video 3 · Halloween en la barbería 👻</span><span>Domingo 1 nov · 18:00 · 18 s</span></div>
+  <table>
+    <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
+    <tr><td class="seg">0 – 2</td><td>Un barbero disfrazado enciende la máquina y mira serio a cámara.</td><td><span class="txt">Así cortamos disfrazados 👻</span></td><td>Canción "This Is Halloween" y el sonido de la máquina.</td></tr>
+    <tr><td class="seg">2 – 6</td><td>Todo el equipo en fila; cada uno da un paso al frente y hace la pose de su personaje.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">6 – 13</td><td>Dos barberos disfrazados cortando a clientes, y la reacción del cliente al verse.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">13 – 16</td><td>Foto grupal: todos juntos, saludando a cámara.</td><td><span class="txt">¿Cuál disfraz se lleva el premio? 👇</span></td><td><b>Todo el equipo, en cámara:</b> "¡Feliz Halloween!"</td></tr>
+    <tr><td class="seg">16 – 18</td><td>Cierre sobre la foto grupal.</td><td>Feliz Halloween desde Oli &amp; Eli<br>Agenda en el link del perfil 👆</td><td>Música.</td></tr>
+  </table>
+</div>
+</section>
 
 <section class="salto">
 <h2>Cómo vamos a trabajar desde noviembre</h2>
