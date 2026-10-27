@@ -86,7 +86,10 @@ h4.paso { font-size: 9.6pt; font-weight: 800; color: var(--rojo); margin: 3.5mm 
 .sesion + .guion { break-before: auto; }
 .guion .cab { break-after: avoid; }
 .guion table.tomas td:first-child { width: 8mm; text-align: center; color: var(--negro); }
-.guion table.tomas td:nth-child(2) { width: 32mm; font-weight: 600; }
+.guion table.tomas td:nth-child(2) { width: 28mm; font-weight: 600; }
+.guion table.tomas td.lente { width: 22mm; white-space: nowrap; color: var(--rojo); font-weight: 600; }
+table.config { font-size: 8.4pt; margin: 1mm 0 3mm; }
+table.config td:first-child { width: 28mm; font-weight: 800; }
 .guion table.tomas tr { break-inside: avoid; }
 ol.armado { font-size: 8.6pt; margin-bottom: 2mm; }
 ol.armado li { margin-bottom: 1mm; }
@@ -247,7 +250,7 @@ ol.armado li { margin-bottom: 1mm; }
   <tr><td><strong>Eli / recepción</strong></td><td>Buscar en la agenda del jueves 29 a las 15:00 un cliente con cabello largo o muy crecido que quiera un cambio grande. Pedirle permiso para grabar y que traiga una foto del corte que quiere. Si es menor de edad, se graba sin cara.</td></tr>
   <tr><td><strong>Oli</strong></td><td>Enviar a Ricardo los videos de la batalla antes del miércoles 28. Tener el trofeo y el certificado en el local el jueves.</td></tr>
   <tr><td><strong>Todo el equipo</strong></td><td>Venir disfrazado el sábado 31 desde las 14:00. Disfraces sencillos y reconocibles (capa, antifaz, sombrero, maquillaje ligero). Nada que estorbe para cortar.</td></tr>
-  <tr><td><strong>Ricardo</strong></td><td>Celular cargado y con espacio, trípode y luz. Dejar lista la plantilla de CapCut (recuadro rojo y negro) y elegir los audios: uno en tendencia y "This Is Halloween".</td></tr>
+  <tr><td><strong>Ricardo</strong></td><td>Cámara con baterías cargadas, tarjeta formateada, lentes limpios, trípode y luz. Dejar lista la plantilla de CapCut (recuadro rojo y negro) y elegir los audios: uno en tendencia y "This Is Halloween".</td></tr>
 </table>
 </section>
 
@@ -263,13 +266,25 @@ ol.armado li { margin-bottom: 1mm; }
 <p>Antes de cada guion va la hoja de la sesión, con la fecha, la hora, el lugar, las personas y lo que se necesita.</p>
 
 <div class="caja">
-<p><strong>Configuración de cámara para todas las tomas</strong></p>
+<p><strong>Configuración de cámara para todas las tomas · Sony a6700</strong></p>
+<table class="config">
+  <tr><td>Formato</td><td>1080p a 60 fps, XAVC S-I o XAVC HS en 4:2:2 de 10 bits. Los 60 fps permiten cámara lenta al 50 % en una línea de tiempo de 30 fps.</td></tr>
+  <tr><td>Orientación</td><td>Cámara en <strong>vertical</strong> (soporte en L o rótula del trípode girada), para grabar directamente en 1080 × 1920 sin recortar.</td></tr>
+  <tr><td>Obturación</td><td><strong>1/120</strong>. En Ecuador la red eléctrica es de 60 Hz y con 1/125 las luces LED y los fluorescentes del local pueden parpadear.</td></tr>
+  <tr><td>Perfil de imagen</td><td><strong>S-Cinetone</strong>: sale con buen color sin necesidad de etalonar, lo que ahorra tiempo de edición. S-Log3 solo si hay tiempo para corregir color.</td></tr>
+  <tr><td>Balance de blancos</td><td>Manual, medido con una hoja blanca bajo la luz del local. No usar automático, que cambia entre tomas.</td></tr>
+  <tr><td>ISO</td><td>Automático con límite de 3200.</td></tr>
+  <tr><td>Enfoque</td><td>AF-C con detección de cara y ojos (sujeto: humano). En los detalles de máquina y tijera, zona pequeña o manual.</td></tr>
+  <tr><td>Diafragma</td><td>f/2–f/2.8 para caras y detalles (a f/1.4 muy de cerca se sale de foco). f/4 para grupos.</td></tr>
+</table>
+<p><strong>Lentes (en la a6700 el recorte es de 1.5×):</strong></p>
 <ul>
-  <li>Celular en <strong>vertical</strong>, 4K a 30 fps, lente principal (no el gran angular) y el enfoque bloqueado tocando la pantalla.</li>
-  <li>Limpiar el lente antes de empezar. Sin zoom digital: si hace falta más cerca, se acerca el trípode.</li>
-  <li>Grabar cada toma <strong>3 segundos antes y 3 segundos después</strong> de la acción, para tener margen al cortar.</li>
-  <li>Si una toma sale mal, se repite en el momento; no se deja para después.</li>
+  <li><strong>15 mm f/1.4 G</strong> (equivale a unos 22 mm): planos abiertos, el equipo completo y el giro de silla.</li>
+  <li><strong>35 mm f/1.4 GM</strong> (unos 52 mm): caras, reacciones y personas hablando a cámara. Es el lente principal.</li>
+  <li><strong>50 mm f/1.8</strong> (unos 75 mm): detalles de máquina, tijera, navaja y producto.</li>
+  <li><strong>18–135 mm</strong>: tomas en movimiento o cuando no hay tiempo de cambiar lente (por ejemplo, clientes que llegan sin aviso).</li>
 </ul>
+<p><strong>Siempre:</strong> grabar 3 segundos antes y 3 después de cada acción; si una toma sale mal, repetirla en el momento. Si CapCut va lento con el material 4:2:2 de 10 bits, crear proxies antes de editar.</p>
 </div>
 
 <!-- SESIÓN JUEVES -->
@@ -284,7 +299,7 @@ ol.armado li { margin-bottom: 1mm; }
       <strong>16:30–17:00</strong> Video 2: Oli con el trofeo.<br>
       <strong>17:00–17:15</strong> Respaldo: copiar todo el material a la computadora.</td></tr>
     <tr><td>Personas</td><td>Ricardo (graba) · Oli (o el barbero asignado al cliente) · cliente de las 15:00 · Oli para el video 2 a las 16:30</td></tr>
-    <tr><td>Equipo</td><td>Celular con batería llena y 20 GB libres · trípode · luz LED o aro de luz · micrófono de solapa (frase de Oli) · batería externa · paño para el lente</td></tr>
+    <tr><td>Equipo</td><td>Sony a6700 con 2 baterías cargadas y tarjeta de 64 GB o más · lentes 15 mm, 35 mm y 50 mm · trípode con soporte vertical · luz LED · micrófono de solapa (frase de Oli) · paño para el lente</td></tr>
     <tr><td>Utilería</td><td>Capa limpia · secadora · cera o polvo · trofeo · certificado · clips de la batalla (Oli los envía antes del miércoles)</td></tr>
     <tr><td>Permisos</td><td>Permiso del cliente, grabado en video al final. Si el cliente es menor de edad, no se graba la cara.</td></tr>
   </table>
@@ -301,19 +316,19 @@ ol.armado li { margin-bottom: 1mm; }
 
     <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
     <table class="tomas">
-      <tr><th>N.º</th><th>Plano</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
-      <tr><td>1</td><td>Antes · espalda</td><td>Cliente sentado con la capa, sin tocarle el cabello. Trípode detrás de la silla, a la altura de la cabeza.</td><td class="num">10 s</td></tr>
-      <tr><td>2</td><td>Antes · perfil</td><td>Trípode al costado. El cliente mira al frente y luego gira despacio la cabeza.</td><td class="num">10 s</td></tr>
-      <tr><td>3</td><td>Antes · frente</td><td>Trípode delante de la silla, entre el espejo y el cliente. Cara seria, como "no aguanto más este cabello".</td><td class="num">10 s</td></tr>
-      <tr><td>4</td><td>Foto de referencia</td><td>Cámara en mano. El cliente acerca su celular a la cámara con la foto del corte que quiere.</td><td class="num">5 s</td></tr>
-      <tr><td>5</td><td>Proceso · máquina</td><td>Plano cerrado del costado de la cabeza mientras se hace el degradado.</td><td class="num">10 s</td></tr>
-      <tr><td>6</td><td>Proceso · tijera</td><td>Plano cerrado de la parte de arriba, mostrando cómo cae el cabello.</td><td class="num">10 s</td></tr>
-      <tr><td>7</td><td>Proceso · navaja</td><td>Muy cerca: el perfilado de la línea o la patilla.</td><td class="num">5 s</td></tr>
-      <tr><td>8</td><td>Proceso · peinado</td><td>Secadora y producto en el cabello, desde el costado.</td><td class="num">10 s</td></tr>
-      <tr><td>9</td><td>Resultado · cara</td><td>Trípode delante, primer plano de la cara ya peinada. El cliente mira a cámara y luego sonríe. <strong>Esta toma abre el video.</strong></td><td class="num">10 s</td></tr>
-      <tr><td>10</td><td>Giro de silla</td><td>Trípode fijo delante. El barbero gira la silla despacio, de espaldas a frente.</td><td class="num">5 s</td></tr>
-      <tr><td>11</td><td>Reacción</td><td>El cliente se mira en el espejo y se toca el cabello. Grabar su reacción real, sin indicaciones.</td><td class="num">10 s</td></tr>
-      <tr><td>12</td><td>Permiso</td><td>Ricardo pregunta: "¿Nos das permiso para publicarlo?" y graba la respuesta.</td><td class="num">5 s</td></tr>
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>Antes · espalda</td><td class="lente">35 mm · f/2</td><td>Cliente sentado con la capa, sin tocarle el cabello. Trípode detrás de la silla, a la altura de la cabeza.</td><td class="num">10 s</td></tr>
+      <tr><td>2</td><td>Antes · perfil</td><td class="lente">35 mm · f/2</td><td>Trípode al costado. El cliente mira al frente y luego gira despacio la cabeza.</td><td class="num">10 s</td></tr>
+      <tr><td>3</td><td>Antes · frente</td><td class="lente">35 mm · f/2</td><td>Trípode delante de la silla, entre el espejo y el cliente. Cara seria, como "no aguanto más este cabello".</td><td class="num">10 s</td></tr>
+      <tr><td>4</td><td>Foto de referencia</td><td class="lente">35 mm · f/2</td><td>Cámara en mano. El cliente acerca su celular a la cámara con la foto del corte que quiere.</td><td class="num">5 s</td></tr>
+      <tr><td>5</td><td>Proceso · máquina</td><td class="lente">50 mm · f/2.8</td><td>Plano cerrado del costado de la cabeza mientras se hace el degradado.</td><td class="num">10 s</td></tr>
+      <tr><td>6</td><td>Proceso · tijera</td><td class="lente">50 mm · f/2.8</td><td>Plano cerrado de la parte de arriba, mostrando cómo cae el cabello.</td><td class="num">10 s</td></tr>
+      <tr><td>7</td><td>Proceso · navaja</td><td class="lente">50 mm · f/2.8</td><td>Muy cerca: el perfilado de la línea o la patilla.</td><td class="num">5 s</td></tr>
+      <tr><td>8</td><td>Proceso · peinado</td><td class="lente">50 mm · f/2.8</td><td>Secadora y producto en el cabello, desde el costado.</td><td class="num">10 s</td></tr>
+      <tr><td>9</td><td>Resultado · cara</td><td class="lente">35 mm · f/2</td><td>Trípode delante, primer plano de la cara ya peinada. El cliente mira a cámara y luego sonríe. <strong>Esta toma abre el video.</strong></td><td class="num">10 s</td></tr>
+      <tr><td>10</td><td>Giro de silla</td><td class="lente">15 mm · f/2.8</td><td>Trípode fijo delante. El barbero gira la silla despacio, de espaldas a frente.</td><td class="num">5 s</td></tr>
+      <tr><td>11</td><td>Reacción</td><td class="lente">35 mm · f/2</td><td>El cliente se mira en el espejo y se toca el cabello. Grabar su reacción real, sin indicaciones.</td><td class="num">10 s</td></tr>
+      <tr><td>12</td><td>Permiso</td><td class="lente">35 mm · f/2</td><td>Ricardo pregunta: "¿Nos das permiso para publicarlo?" y graba la respuesta.</td><td class="num">5 s</td></tr>
     </table>
 
     <h4 class="paso">2 · Armado en CapCut</h4>
@@ -339,7 +354,7 @@ ol.armado li { margin-bottom: 1mm; }
         </ul>
       </li>
       <li>Cierre en el último segundo: "Oli &amp; Eli · Tumbaco" + "Agenda en el link del perfil 👆".</li>
-      <li>Exportar en 1080 × 1920 a 30 fps y elegir como portada la toma 9.</li>
+      <li>Exportar en 1080 × 1920 a 30 fps (los 60 fps de cámara quedan para cámara lenta) y elegir como portada la toma 9.</li>
       <li>Programar en TikTok para el <strong>viernes 30 a las 19:00</strong>, con la descripción, los hashtags y la ubicación Tumbaco.</li>
     </ol>
 
@@ -366,12 +381,12 @@ ol.armado li { margin-bottom: 1mm; }
 
     <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
     <table class="tomas">
-      <tr><th>N.º</th><th>Plano</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
-      <tr><td>1</td><td>Trofeo · plano medio</td><td>Oli de pie junto a su silla. Levanta el trofeo despacio y mira a cámara, seria. Trípode a la altura del pecho.</td><td class="num">10 s</td></tr>
-      <tr><td>2</td><td>Trofeo y certificado · detalle</td><td>Ambos sobre el mostrador. Cámara en mano, acercándose despacio desde un costado.</td><td class="num">10 s</td></tr>
-      <tr><td>3</td><td>Oli a cámara</td><td>Oli sentada en su silla, con el micrófono de solapa. Frase: "Soy Oli, de Oli &amp; Eli. Gané la batalla de barberos… y hoy te puedo cortar a ti." Grabar 3 versiones y elegir la mejor.</td><td class="num">3 × 8 s</td></tr>
-      <tr><td>4</td><td>Oli trabajando</td><td>Manos de Oli con la máquina, en plano cerrado (puede ser con el cliente del video 1).</td><td class="num">10 s</td></tr>
-      <tr><td>—</td><td>Archivo de la batalla</td><td>Oli envía antes del miércoles los clips de la batalla y de la premiación. No se graba nada.</td><td class="num">—</td></tr>
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>Trofeo · plano medio</td><td class="lente">35 mm · f/2</td><td>Oli de pie junto a su silla. Levanta el trofeo despacio y mira a cámara, seria. Trípode a la altura del pecho.</td><td class="num">10 s</td></tr>
+      <tr><td>2</td><td>Trofeo y certificado · detalle</td><td class="lente">50 mm · f/2.8</td><td>Ambos sobre el mostrador. Cámara en mano, acercándose despacio desde un costado.</td><td class="num">10 s</td></tr>
+      <tr><td>3</td><td>Oli a cámara</td><td class="lente">35 mm · f/2</td><td>Oli sentada en su silla, con el micrófono de solapa. Frase: "Soy Oli, de Oli &amp; Eli. Gané la batalla de barberos… y hoy te puedo cortar a ti." Grabar 3 versiones y elegir la mejor.</td><td class="num">3 × 8 s</td></tr>
+      <tr><td>4</td><td>Oli trabajando</td><td class="lente">50 mm · f/2.8</td><td>Manos de Oli con la máquina, en plano cerrado (puede ser con el cliente del video 1).</td><td class="num">10 s</td></tr>
+      <tr><td>—</td><td>Archivo de la batalla</td><td class="lente">—</td><td>Oli envía antes del miércoles los clips de la batalla y de la premiación. No se graba nada.</td><td class="num">—</td></tr>
     </table>
 
     <h4 class="paso">2 · Armado en CapCut</h4>
@@ -424,7 +439,7 @@ ol.armado li { margin-bottom: 1mm; }
       <strong>15:50–16:00</strong> Foto grupal.<br>
       <strong>16:00–16:15</strong> Respaldo del material.</td></tr>
     <tr><td>Personas</td><td>Ricardo (graba) · todo el equipo disfrazado desde las 14:00 · 2 clientes que acepten salir en video</td></tr>
-    <tr><td>Equipo</td><td>Celular con batería llena y 20 GB libres · trípode · luz LED · batería externa · paño para el lente</td></tr>
+    <tr><td>Equipo</td><td>Sony a6700 con 2 baterías cargadas y tarjeta de 64 GB o más · lentes 15 mm, 35 mm y 18–135 mm · trípode con soporte vertical · luz LED · paño para el lente</td></tr>
     <tr><td>Utilería</td><td>Disfraces sencillos de todo el equipo (nada que estorbe para cortar) · capa limpia · secadora · producto</td></tr>
     <tr><td>Permisos</td><td>Permiso grabado de cada cliente. Si el cliente es menor de edad, no se graba la cara.</td></tr>
   </table>
@@ -441,15 +456,15 @@ ol.armado li { margin-bottom: 1mm; }
 
     <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
     <table class="tomas">
-      <tr><th>N.º</th><th>Plano</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
-      <tr><td>1</td><td>Barbero con la máquina · primer plano</td><td>Un barbero disfrazado, de frente, enciende la máquina y mira a cámara con cara seria. Trípode a la altura de la cara.</td><td class="num">8 s</td></tr>
-      <tr><td>2</td><td>Equipo en fila</td><td>Trípode fijo, todos en fila frente a las sillas, quietos.</td><td class="num">5 s</td></tr>
-      <tr><td>3</td><td>Poses individuales</td><td>Mismo encuadre que la toma 2. Cada persona da un paso al frente y hace una pose o un gesto de su personaje, uno por uno.</td><td class="num">4 s c/u</td></tr>
-      <tr><td>4</td><td>Corte · barbero 1</td><td>Barbero disfrazado cortando: planos cerrados de máquina, tijera y peinado.</td><td class="num">30 s</td></tr>
-      <tr><td>5</td><td>Reacción · cliente 1</td><td>El cliente se mira al espejo y reacciona al resultado y al barbero disfrazado.</td><td class="num">10 s</td></tr>
-      <tr><td>6</td><td>Corte · barbero 2</td><td>Otro barbero con otro disfraz haciendo un corte parecido, mismos planos.</td><td class="num">30 s</td></tr>
-      <tr><td>7</td><td>Clientes disfrazados</td><td>Si llega un cliente disfrazado: su entrada y su reacción al ver al equipo.</td><td class="num">10 s</td></tr>
-      <tr><td>8</td><td>Foto grupal</td><td>Todo el equipo junto, mirando a cámara. Grabar 5 s quietos y luego todos saludando. También sirve para la portada.</td><td class="num">10 s</td></tr>
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>Barbero con la máquina · primer plano</td><td class="lente">35 mm · f/2</td><td>Un barbero disfrazado, de frente, enciende la máquina y mira a cámara con cara seria. Trípode a la altura de la cara.</td><td class="num">8 s</td></tr>
+      <tr><td>2</td><td>Equipo en fila</td><td class="lente">15 mm · f/4</td><td>Trípode fijo, todos en fila frente a las sillas, quietos.</td><td class="num">5 s</td></tr>
+      <tr><td>3</td><td>Poses individuales</td><td class="lente">15 mm · f/4</td><td>Mismo encuadre que la toma 2. Cada persona da un paso al frente y hace una pose o un gesto de su personaje, uno por uno.</td><td class="num">4 s c/u</td></tr>
+      <tr><td>4</td><td>Corte · barbero 1</td><td class="lente">35 mm · f/2.8</td><td>Barbero disfrazado cortando: planos cerrados de máquina, tijera y peinado.</td><td class="num">30 s</td></tr>
+      <tr><td>5</td><td>Reacción · cliente 1</td><td class="lente">35 mm · f/2</td><td>El cliente se mira al espejo y reacciona al resultado y al barbero disfrazado.</td><td class="num">10 s</td></tr>
+      <tr><td>6</td><td>Corte · barbero 2</td><td class="lente">35 mm · f/2.8</td><td>Otro barbero con otro disfraz haciendo un corte parecido, mismos planos.</td><td class="num">30 s</td></tr>
+      <tr><td>7</td><td>Clientes disfrazados</td><td class="lente">18–135 mm · f/4</td><td>Si llega un cliente disfrazado: su entrada y su reacción al ver al equipo.</td><td class="num">10 s</td></tr>
+      <tr><td>8</td><td>Foto grupal</td><td class="lente">15 mm · f/4</td><td>Todo el equipo junto, mirando a cámara. Grabar 5 s quietos y luego todos saludando. También sirve para la portada.</td><td class="num">10 s</td></tr>
     </table>
 
     <h4 class="paso">2 · Armado en CapCut</h4>
