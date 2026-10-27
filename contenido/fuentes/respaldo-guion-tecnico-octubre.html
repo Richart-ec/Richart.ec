@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guion técnico de respaldo · Oli&amp;Eli · Octubre 2026</title>
+<style>
+@font-face { font-family: "Montserrat"; font-weight: 400; src: url(assets/fonts/Montserrat-400.ttf); }
+@font-face { font-family: "Montserrat"; font-weight: 600; src: url(assets/fonts/Montserrat-600.ttf); }
+@font-face { font-family: "Montserrat"; font-weight: 800; src: url(assets/fonts/Montserrat-800.ttf); }
+@page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+:root { --negro: #141414; --rojo: #C8102E; --gris: #f2f2f2; --linea: #dcdcdc; --texto: #1d1d1d; --suave: #5c5c5c; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Montserrat", "Liberation Sans", Arial, sans-serif; color: var(--texto); font-size: 9.6pt; line-height: 1.45; background: #fff; }
+h1, h2, h3 { font-weight: 800; color: var(--negro); margin: 0; line-height: 1.2; }
+h2 { font-size: 15pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 2.5px solid var(--rojo); }
+h3 { font-size: 11pt; margin: 5mm 0 2mm; }
+p { margin: 0 0 2.5mm; }
+ul, ol { margin: 0 0 3mm; padding-left: 5mm; }
+li { margin-bottom: 1.2mm; }
+strong { font-weight: 800; }
+.salto { break-before: page; }
+.nota { color: var(--suave); font-size: 8.4pt; }
+.etiqueta { display: inline-block; background: var(--rojo); color: #fff; font-weight: 800; font-size: 7.6pt; letter-spacing: .06em; padding: 1mm 2.2mm; border-radius: 1mm; text-transform: uppercase; }
+
+/* Portada */
+.portada { background: var(--negro); color: #fff; margin: -16mm -15mm 0; padding: 15mm 15mm 11mm; }
+.portada .marca { font-size: 9pt; letter-spacing: .25em; color: #ff4d64; font-weight: 600; }
+.portada h1 { color: #fff; font-size: 21pt; margin: 3mm 0 2.5mm; }
+.portada .sub { font-size: 11.5pt; color: #e6e6e6; }
+.portada .meta { margin-top: 6mm; font-size: 9pt; color: #bdbdbd; }
+.portada .barra { height: 4px; width: 38mm; background: var(--rojo); margin-top: 6mm; }
+
+.resumen { border: 2px solid var(--negro); border-radius: 2mm; padding: 3.5mm 5mm; margin: 5mm 0 4mm; }
+.resumen h3 { margin-top: 0; }
+.resumen ul { margin-bottom: 0; }
+
+.cifras { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-bottom: 5mm; }
+.cifra { background: var(--gris); border-radius: 2mm; padding: 3.5mm 3mm; border-top: 3px solid var(--rojo); }
+.cifra b { display: block; font-size: 17pt; font-weight: 800; color: var(--negro); line-height: 1.1; }
+.cifra span { font-size: 7.8pt; color: var(--suave); }
+
+/* Tablas */
+table { width: 100%; border-collapse: collapse; margin: 1mm 0 4mm; font-size: 8.8pt; }
+th { background: var(--negro); color: #fff; font-weight: 600; text-align: left; padding: 2mm 2.4mm; }
+td { border-bottom: 1px solid var(--linea); padding: 2mm 2.4mm; vertical-align: top; }
+tr:nth-child(even) td { background: #fafafa; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+.total td { font-weight: 800; background: #fff2f4 !important; border-top: 2px solid var(--rojo); }
+
+/* Tarjetas de videos */
+.videos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.4mm; }
+.video { display: grid; grid-template-columns: 17mm 1fr; gap: 2.2mm; border: 1px solid var(--linea); border-radius: 2mm; padding: 2mm; break-inside: avoid; }
+.video img { width: 17mm; height: 30.2mm; object-fit: cover; border-radius: 1.2mm; background: #ddd; }
+.video .cuenta { font-weight: 800; font-size: 8pt; color: var(--negro); word-break: break-all; }
+.video .datos { font-size: 7.4pt; color: var(--rojo); font-weight: 600; margin: .5mm 0 1mm; }
+.video p { font-size: 7.4pt; line-height: 1.35; margin: 0 0 1mm; }
+.video p.porque { color: var(--suave); }
+
+.lecciones { font-size: 8.8pt; } .lecciones li { margin-bottom: 1.1mm; }
+.caja { background: var(--gris); border-left: 4px solid var(--rojo); padding: 3mm 4mm; border-radius: 0 2mm 2mm 0; margin: 3mm 0 4mm; break-inside: avoid; }
+.caja p:last-child, .caja ul:last-child { margin-bottom: 0; }
+
+/* Guiones */
+.guion { border: 1.5px solid var(--negro); border-radius: 2mm; margin: 0 0 4.5mm; break-inside: avoid; }
+.guion .cab { background: var(--negro); color: #fff; padding: 2.5mm 4mm; display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+.guion .cab b { font-size: 11pt; }
+.guion .cab span { font-size: 8.2pt; color: #ff8394; font-weight: 600; white-space: nowrap; }
+.guion .cuerpo { padding: 3mm 4mm; }
+.guion .ficha { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm; margin-bottom: 2.5mm; }
+.guion .ficha div { background: var(--gris); border-radius: 1.5mm; padding: 1.6mm 2.2mm; font-size: 7.8pt; }
+.guion .ficha div b { display: block; font-size: 7pt; color: var(--suave); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.guion table { font-size: 8.4pt; margin-bottom: 2mm; }
+.guion table td:first-child { width: 17mm; font-weight: 800; color: var(--rojo); white-space: nowrap; }
+.texto-pantalla { display: inline-block; background: var(--rojo); color: #fff; font-weight: 800; padding: .3mm 1.8mm; border-radius: 1mm; }
+
+
+/* Guion técnico */
+.sesion { border: 2px solid var(--rojo); border-radius: 2mm; margin: 4mm 0 4.5mm; break-inside: avoid; }
+.sesion-cab { background: var(--rojo); color: #fff; font-weight: 800; font-size: 11pt; padding: 2.5mm 4mm; }
+.sesion table.hoja { margin: 0; font-size: 8.6pt; }
+.sesion table.hoja td:first-child { width: 22mm; font-weight: 800; color: var(--negro); background: var(--gris); }
+.sesion table.hoja tr:nth-child(even) td:not(:first-child) { background: #fff; }
+h4.paso { font-size: 9.6pt; font-weight: 800; color: var(--rojo); margin: 3.5mm 0 1.5mm; text-transform: uppercase; letter-spacing: .03em; }
+.guion { break-inside: auto; break-before: page; }
+.sesion { break-before: page; }
+.sesion + .guion { break-before: auto; }
+.guion .cab { break-after: avoid; }
+.guion table.tomas td:first-child { width: 8mm; text-align: center; color: var(--negro); }
+.guion table.tomas td:nth-child(2) { width: 28mm; font-weight: 600; }
+.guion table.tomas td.lente { width: 22mm; white-space: nowrap; color: var(--rojo); font-weight: 600; }
+table.config { font-size: 8.4pt; margin: 1mm 0 3mm; }
+table.config td:first-child { width: 28mm; font-weight: 800; }
+.guion table.tomas tr { break-inside: avoid; }
+ol.armado { font-size: 8.6pt; margin-bottom: 2mm; }
+ol.armado li { margin-bottom: 1mm; }
+
+
+/* Parrilla */
+table.parrilla { font-size: 9pt; }
+table.parrilla td { vertical-align: middle; }
+td.pub { background: #fff2f4 !important; color: var(--negro); }
+td.pub b { color: var(--rojo); font-size: 11pt; }
+table.semana td:first-child { width: 22mm; }
+
+
+.idea { background: #fff2f4; border-left: 4px solid var(--rojo); border-radius: 0 2mm 2mm 0; padding: 2.5mm 3.5mm; margin: 0 0 3mm; font-size: 8.8pt; }
+.idea b { display: block; color: var(--rojo); font-size: 9.6pt; margin-bottom: 1mm; }
+.idea p { margin: 0 0 1.2mm; } .idea p:last-child { margin: 0; }
+
+/* Aprobación */
+.check { list-style: none; padding-left: 0; }
+.check li { padding: 2mm 0 2mm 9mm; position: relative; border-bottom: 1px solid var(--linea); margin: 0; }
+.check li::before { content: ""; position: absolute; left: 0; top: 2mm; width: 4.5mm; height: 4.5mm; border: 1.6px solid var(--negro); border-radius: .8mm; }
+.firmas { display: grid; grid-template-columns: 1fr 1fr; gap: 12mm; margin-top: 12mm; }
+.firmas div { border-top: 1.5px solid var(--negro); padding-top: 2mm; font-size: 8.6pt; }
+</style>
+</head>
+<body>
+
+<section class="portada">
+  <div class="marca">OLI&amp;ELI TU BARBERÍA · TIKTOK</div>
+  <h1>Guion técnico de respaldo<br>Cierre de octubre 2026</h1>
+  <div class="sub">3 videos alternativos · documento de trabajo de Ricardo</div>
+  <div class="barra"></div>
+</section>
+
+<div class="resumen">
+  <h3>Cuándo se usa</h3>
+  <ul>
+    <li>Si un video del plan principal no se puede grabar, se graba su respaldo <strong>en la misma franja horaria</strong> y se publica <strong>el mismo día y a la misma hora</strong>.</li>
+    <li><strong>Cámara y lentes:</strong> la misma configuración del guion técnico principal (Sony a6700, 1080p 60 fps 4:2:2 10 bits, obturación 1/120, S-Cinetone).</li>
+    <li><strong>Reglas:</strong> CTA "Agenda en el link del perfil 👆", textos en recuadro rojo y negro, ubicación Tumbaco y nunca nombrar otras apps.</li>
+  </ul>
+</div>
+
+<table>
+  <tr><th>Si falla…</th><th>Respaldo</th><th>Graba</th><th>Edición</th><th>Publica</th></tr>
+  <tr><td>Video 1</td><td><strong>R1 · No pidas un fade sin ver esto</strong></td><td>Jue 29 · 15:00–16:15</td><td>Vie 30 · 9:00–10:00</td><td><strong>Vie 30 · 19:00</strong></td></tr>
+  <tr><td>Video 2</td><td><strong>R2 · Tipos de clientes en la barbería</strong></td><td>Jue 29 · 16:30–17:30</td><td>Vie 30 · 10:00–11:30</td><td><strong>Sáb 31 · 12:30</strong></td></tr>
+  <tr><td>Video 3</td><td><strong>R3 · Hasta el zombie salió guapo</strong></td><td>Sáb 31 · 14:00–16:00</td><td>Sáb 31 · 16:15–17:30</td><td><strong>Sáb 31 · 20:00</strong></td></tr>
+</table>
+
+<div class="guion">
+  <div class="cab"><b>Respaldo 1 · No pidas un fade sin ver esto</b><span>Graba jue 29 15:00–16:15 · Publica vie 30 19:00</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración final</b>30 s</div>
+      <div><b>Quién sale</b>Un barbero que explica + las nucas de 3 clientes del día</div>
+      <div><b>Edición</b>Viernes 30, 9:00–10:00</div>
+    </div>
+    <div class="idea"><b>💡 Idea del video</b><p>Video educativo para guardar: un barbero muestra, con tres clientes reales, la diferencia entre low fade, mid fade y burst fade. Viene del análisis de virales ("No te hagas un fade en 2026" y "¡Deberías probar el Low Taper!" pasaron los 2 M).</p><p><strong>Objetivo:</strong> guardados y comentarios ("¿cuál eres tú?").<br><strong>Para quién:</strong> hombres de 14 a 35 años que no saben qué pedir.</p></div>
+    <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
+    <p class="nota">Las nucas se graban a medida que los barberos terminan cada fade durante la tarde. Los clientes salen sin cara (solo nuca), así que no hace falta permiso de imagen; igual se les pregunta.</p>
+    <table class="tomas">
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>Nuca · low fade</td><td class="lente">50 mm · f/2.8</td><td>Nuca de un cliente con low fade recién hecho. Trípode detrás, a la altura de la nuca; el cliente gira despacio la cabeza a los lados.</td><td class="num">10 s</td></tr>
+      <tr><td>2</td><td>Nuca · mid fade</td><td class="lente">50 mm · f/2.8</td><td>Igual que la toma 1, con un mid fade. Mismo encuadre y misma luz.</td><td class="num">10 s</td></tr>
+      <tr><td>3</td><td>Nuca · burst fade</td><td class="lente">50 mm · f/2.8</td><td>Igual, con un burst fade. Incluir la oreja para que se vea la media luna.</td><td class="num">10 s</td></tr>
+      <tr><td>4</td><td>Barbero · apertura</td><td class="lente">35 mm · f/2</td><td>El barbero a cámara, con micrófono de solapa: "Hay 3 fades y no son lo mismo." Grabar 3 veces.</td><td class="num">3 × 4 s</td></tr>
+      <tr><td>5</td><td>Barbero · cierre</td><td class="lente">35 mm · f/2</td><td>Señalando hacia abajo: "¿Cuál te harías? Te leo en comentarios."</td><td class="num">3 × 4 s</td></tr>
+      <tr><td>6</td><td>Voz en off</td><td class="lente">Micrófono de solapa</td><td>El barbero, en un lugar sin ruido: "El low fade: discreto, pasa en el colegio y en la oficina." · "El mid fade: el más pedido, combina con todo." · "El burst fade: rodea la oreja, el que más estilo tiene."</td><td class="num">3 × 4 s</td></tr>
+    </table>
+    <h4 class="paso">2 · Armado en CapCut</h4>
+    <ol class="armado">
+      <li>Proyecto vertical 9:16 con la plantilla Oli&amp;Eli.</li>
+      <li>Abrir con las 3 nucas en pantalla dividida (3 franjas) durante 3 s, con la toma 4 de audio.</li>
+      <li>Luego cada nuca a pantalla completa, 7 s cada una, con su frase de voz en off y su número.</li>
+      <li>Cerrar con la toma 5 (6 s).</li>
+      <li>Música en tendencia al 20 % debajo de la voz.</li>
+      <li>Textos: "No pidas un fade sin ver esto ⚠️" · "1 · Low fade" · "2 · Mid fade" · "3 · Burst fade" · "¿Cuál eres tú? 1, 2 o 3 👇".</li>
+      <li>Cierre "Agenda en el link del perfil 👆". Exportar 1080 × 1920 a 30 fps; portada: las 3 nucas.</li>
+      <li>Programar para el <strong>viernes 30 a las 19:00</strong>. Descripción: "Guárdalo para tu próximo corte 💈 ¿Cuál eres tú? #fade #lowfade #burstfade #barberiaquito #tumbaco"</li>
+    </ol>
+  </div>
+</div>
+
+<div class="guion">
+  <div class="cab"><b>Respaldo 2 · Tipos de clientes en la barbería</b><span>Graba jue 29 16:30–17:30 · Publica sáb 31 12:30</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración final</b>25 s</div>
+      <div><b>Quién sale</b>2 barberos + 4 personas del equipo actuando de clientes</div>
+      <div><b>Edición</b>Viernes 30, 10:00–11:30</div>
+    </div>
+    <div class="idea"><b>💡 Idea del video</b><p>Sketch de humor con cuatro "tipos de clientes" que todo el mundo reconoce. Viene del análisis: los sketches de barbería generan compartidos y etiquetas. No necesita un cliente real.</p><p><strong>Objetivo:</strong> que se comparta y etiqueten a sus amigos.<br><strong>Para quién:</strong> todo el público, sobre todo de 14 a 25 años.</p></div>
+    <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
+    <p class="nota">Trípode fijo frente a la silla, mismo encuadre en las 4 escenas para que el cambio de "cliente" sea limpio. Cada escena se graba 2 o 3 veces.</p>
+    <table class="tomas">
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>"Solo las puntas" · antes</td><td class="lente">35 mm · f/2.8</td><td>Cliente 1 se sienta y dice muy seguro: "Solo las puntitas, ¿ya?".</td><td class="num">5 s</td></tr>
+      <tr><td>2</td><td>"Solo las puntas" · después</td><td class="lente">35 mm · f/2.8</td><td>Mismo encuadre: el cliente 1 con una gorra puesta hasta las cejas (o un compañero con el cabello muy corto), cara de sorpresa mirando al espejo.</td><td class="num">5 s</td></tr>
+      <tr><td>3</td><td>El de las 5 fotos</td><td class="lente">35 mm · f/2.8</td><td>Cliente 2 muestra el celular al barbero: "Como este… no, como este… o este…". El barbero mira a cámara, cansado.</td><td class="num">8 s</td></tr>
+      <tr><td>4</td><td>El que se duerme</td><td class="lente">35 mm · f/2.8</td><td>Cliente 3 dormido con la boca abierta mientras el barbero sigue cortando.</td><td class="num">6 s</td></tr>
+      <tr><td>5</td><td>"Lo de la vez pasada"</td><td class="lente">35 mm · f/2.8</td><td>Cliente 4: "Lo mismo de la vez pasada." El barbero sopla polvo (talco) de una agenda vieja: "¿La de hace seis meses?".</td><td class="num">8 s</td></tr>
+      <tr><td>6</td><td>Equipo a cámara</td><td class="lente">15 mm · f/4</td><td>Todo el equipo junto mirando a cámara, como diciendo "¿cuál eres tú?".</td><td class="num">5 s</td></tr>
+    </table>
+    <h4 class="paso">2 · Armado en CapCut</h4>
+    <ol class="armado">
+      <li>Proyecto vertical 9:16 con la plantilla Oli&amp;Eli; audio en tendencia de humor.</li>
+      <li>Orden 1 → 2 → 3 → 4 → 5 → 6, unos 4–5 s por escena.</li>
+      <li>Efectos de sonido: sorpresa en la toma 2, ronquido en la 4 y soplido en la 5.</li>
+      <li>Textos: "Tipos de clientes en la barbería 😂" · "1 · El de 'solo las puntas'" · "2 · El que trae 5 fotos" · "3 · El que se duerme" · "4 · El de 'lo de la vez pasada'" · "¿Cuál eres tú? Etiqueta a tu pana 👇".</li>
+      <li>Subtítulos palabra por palabra en los diálogos.</li>
+      <li>Cierre "Agenda en el link del perfil 👆". Exportar 1080 × 1920 a 30 fps.</li>
+      <li>Programar para el <strong>sábado 31 a las 12:30</strong>. Descripción: "¿Cuál eres tú? 😂 Etiqueta a tu pana #barberia #humor #OliEliBarber #tumbaco"</li>
+    </ol>
+  </div>
+</div>
+
+<div class="guion">
+  <div class="cab"><b>Respaldo 3 · Hasta el zombie salió guapo 🧟</b><span>Graba sáb 31 14:00–16:00 · Publica sáb 31 20:00</span></div>
+  <div class="cuerpo">
+    <div class="ficha">
+      <div><b>Duración final</b>20 s · audio "This Is Halloween"</div>
+      <div><b>Quién sale</b>Alguien del equipo disfrazado de zombie (se corta de verdad) + un barbero disfrazado</div>
+      <div><b>Edición</b>Sábado 31, 16:15–17:30</div>
+    </div>
+    <div class="idea"><b>💡 Idea del video</b><p>Transformación de Halloween con humor: un zombie despeinado entra, se sienta, le hacen un fade y sale "guapo"… pero sigue siendo zombie. Usa el formato de transformación que más funciona y el audio de Halloween que pasó los 2 M en el nicho.</p><p><strong>Objetivo:</strong> alcance y compartidos el día de Halloween.<br><strong>Para quién:</strong> todo el público.</p></div>
+    <h4 class="paso">1 · Tomas a grabar (en orden)</h4>
+    <table class="tomas">
+      <tr><th>N.º</th><th>Plano</th><th>Lente</th><th>Cómo se graba</th><th class="num">Grabar</th></tr>
+      <tr><td>1</td><td>Entrada del zombie</td><td class="lente">15 mm · f/2.8</td><td>Trípode adentro mirando a la puerta de cristal abierta. El zombie entra caminando lento, cabello despeinado con spray, y se sienta.</td><td class="num">8 s</td></tr>
+      <tr><td>2</td><td>Reacción del barbero</td><td class="lente">35 mm · f/2</td><td>El barbero disfrazado mira al zombie, mira a cámara, se encoge de hombros y enciende la máquina: "¿Qué nos hacemos hoy?". Zombie: "Grrr…".</td><td class="num">6 s</td></tr>
+      <tr><td>3</td><td>Corte · proceso</td><td class="lente">50 mm · f/2.8</td><td>Planos cerrados de máquina, tijera y peinado. Grabar el corte completo en tomas de 20–30 s.</td><td class="num">corte completo</td></tr>
+      <tr><td>4</td><td>Espejo</td><td class="lente">35 mm · f/2</td><td>El zombie se mira al espejo con el fade terminado, se acomoda el cabello y "sonríe" de zombie.</td><td class="num">6 s</td></tr>
+      <tr><td>5</td><td>Choque de manos</td><td class="lente">15 mm · f/2.8</td><td>El zombie y el barbero chocan la mano mirando a cámara.</td><td class="num">4 s</td></tr>
+    </table>
+    <h4 class="paso">2 · Armado en CapCut</h4>
+    <ol class="armado">
+      <li>Proyecto vertical 9:16 con la plantilla Oli&amp;Eli y el audio "This Is Halloween".</li>
+      <li>Orden 1 → 2 → 3 (en cámara rápida, 8 s) → 4 → 5.</li>
+      <li>Textos: "Llegó un cliente especial 🧟" · "En Oli &amp; Eli atendemos a todos" · "Hasta el zombie salió guapo 😎" · "Feliz Halloween desde Oli &amp; Eli 🎃".</li>
+      <li>Cierre "Agenda en el link del perfil 👆". Exportar 1080 × 1920 a 30 fps; portada: la toma 4.</li>
+      <li>Programar para el <strong>sábado 31 a las 20:00</strong>. Descripción: "Hasta el zombie salió guapo 🧟💈 Feliz Halloween #halloween #barberia #OliEliBarber #tumbaco"</li>
+    </ol>
+  </div>
+</div>
+
+</body>
+</html>
