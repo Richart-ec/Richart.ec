@@ -12,7 +12,7 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: "Montserrat", Arial, sans-serif; color: #1d1d1d; font-size: 10.5pt; line-height: 1.5; background: #fff; }
 h1, h2 { font-weight: 800; color: var(--negro); margin: 0; line-height: 1.2; }
-h2 { font-size: 14pt; margin: 7mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 2.5px solid var(--rojo); }
+h2 { font-size: 14pt; margin: 5mm 0 2.5mm; padding-bottom: 1.5mm; border-bottom: 2.5px solid var(--rojo); }
 p { margin: 0 0 3mm; }
 strong { font-weight: 800; }
 .salto { break-before: page; }
@@ -20,15 +20,15 @@ strong { font-weight: 800; }
 .cabecera .marca { font-size: 8.5pt; letter-spacing: .25em; color: #ff4d64; font-weight: 600; }
 .cabecera h1 { color: #fff; font-size: 21pt; margin: 2mm 0 1.5mm; }
 .cabecera .sub { color: #d6d6d6; font-size: 10pt; }
-.objetivo { background: var(--rosa); border-left: 5px solid var(--rojo); padding: 4mm 5mm; margin: 6mm 0 0; font-size: 11pt; border-radius: 0 2mm 2mm 0; }
-.video { display: grid; grid-template-columns: 34mm 1fr; border: 1.5px solid var(--negro); border-radius: 2.5mm; margin-bottom: 4mm; overflow: hidden; break-inside: avoid; }
+.objetivo { background: var(--rosa); border-left: 5px solid var(--rojo); padding: 3mm 5mm; margin: 4mm 0 0; font-size: 11pt; border-radius: 0 2mm 2mm 0; }
+.video { display: grid; grid-template-columns: 34mm 1fr; border: 1.5px solid var(--negro); border-radius: 2.5mm; margin-bottom: 3mm; overflow: hidden; break-inside: avoid; }
 .video .cuando { background: var(--negro); color: #fff; padding: 4mm; display: flex; flex-direction: column; justify-content: center; }
 .video .cuando .dia { font-size: 10pt; color: #ff8394; font-weight: 600; }
 .video .cuando .hora { font-size: 20pt; font-weight: 800; line-height: 1.1; }
 .video .cuando .num { font-size: 8pt; color: #bdbdbd; margin-top: 1mm; }
 .video .que { padding: 3.5mm 4.5mm; }
 .video .que h3 { font-size: 12pt; margin: 0 0 1.5mm; font-weight: 800; }
-.video .que p { margin: 0 0 1.5mm; font-size: 9.8pt; }
+.video .que p { margin: 0 0 1.2mm; font-size: 9.2pt; line-height: 1.4; }
 .video .que .graba { font-size: 9pt; color: #5c5c5c; }
 .video .que .graba b { color: var(--rojo); }
 table { width: 100%; border-collapse: collapse; font-size: 9.8pt; margin: 1mm 0 3mm; }
@@ -79,6 +79,15 @@ ol.preg li { margin-bottom: 1.5mm; }
 </div>
 
 <div class="video">
+  <div class="cuando"><div class="dia">Sábado 31</div><div class="hora">12:30</div><div class="num">Video 2</div></div>
+  <div class="que">
+    <h3>Tu primera vez en Oli &amp; Eli</h3>
+    <p>Lo vemos todo con los ojos del cliente. Va caminando por la calle mirando en su celular los videos de Oli &amp; Eli en TikTok, levanta la mirada, ve la barbería y entra. Adentro vive toda la experiencia: lo reciben, le dan una bebida, le asesoran, le cortan, le hacen la mascarilla de puntos negros y sale listo.</p>
+    <p class="graba"><b>Se graba:</b> jueves 29 de 16:30 a 17:30 (afuera y dentro del local) · <b>Sale:</b> un chico que haga de cliente + recepción + un barbero</p>
+  </div>
+</div>
+
+<div class="video">
   <div class="cuando"><div class="dia">Sábado 31</div><div class="hora">20:00</div><div class="num">Video 3</div></div>
   <div class="que">
     <h3>Halloween en la barbería 👻</h3>
@@ -87,20 +96,11 @@ ol.preg li { margin-bottom: 1.5mm; }
   </div>
 </div>
 
-<div class="video">
-  <div class="cuando"><div class="dia">Domingo 1 nov</div><div class="hora">18:00</div><div class="num">Video 2</div></div>
-  <div class="que">
-    <h3>Tu primera vez en Oli &amp; Eli</h3>
-    <p>El video se ve como si quien mira fuera el cliente: entra al local, lo reciben, le dan una bebida, le asesoran, le cortan y le hacen la mascarilla de puntos negros. Muestra que aquí no es solo un corte, es una experiencia.</p>
-    <p class="graba"><b>Se graba:</b> jueves 29 a las 16:30 · <b>Sale:</b> recepción + un barbero + alguien que haga de cliente</p>
-  </div>
-</div>
-
 <h2>Lo que necesito del equipo</h2>
 <table>
   <tr><th>Quién</th><th>Qué</th><th>Para cuándo</th></tr>
   <tr><td><strong>Recepción</strong></td><td>Buscar en la agenda un cliente con el cabello largo o muy crecido que quiera un cambio grande y acepte salir en video.</td><td>Miércoles 28</td></tr>
-  <tr><td><strong>Recepción y un barbero</strong></td><td>Estar libres 45 minutos para el video "Tu primera vez en Oli &amp; Eli". Tener lista la bebida y la mascarilla de puntos negros.</td><td>Jueves 29, 16:30</td></tr>
+  <tr><td><strong>Recepción y un barbero</strong></td><td>Estar libres 1 hora para el video "Tu primera vez en Oli &amp; Eli". Tener lista la bebida y la mascarilla de puntos negros. Conseguir un chico de 18 a 25 años que haga de cliente (puede ser del equipo o un amigo).</td><td>Jueves 29, 16:30</td></tr>
   <tr><td><strong>Todo el equipo</strong></td><td>Venir disfrazado. Disfraces sencillos que no estorben para cortar.</td><td>Sábado 31, 14:00</td></tr>
 </table>
 
@@ -123,6 +123,23 @@ ol.preg li { margin-bottom: 1.5mm; }
 </div>
 
 <div class="guionceo">
+  <div class="tit"><span>Video 2 · Tu primera vez en Oli &amp; Eli</span><span>Sábado 31 · 12:30 · 23 s</span></div>
+  <table>
+    <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
+    <tr><td class="seg">0 – 3</td><td>Desde los ojos del cliente: camina por la calle mirando en su celular un video de Oli &amp; Eli en TikTok.</td><td><span class="txt">POV: viste a Oli &amp; Eli en TikTok…</span></td><td>El sonido del video del celular y luego música en tendencia.</td></tr>
+    <tr><td class="seg">3 – 5</td><td>Levanta la mirada del celular y aparece la fachada de la barbería.</td><td><span class="txt">…y decidiste ir</span></td><td>Música.</td></tr>
+    <tr><td class="seg">5 – 7</td><td>Empuja la puerta y entra al local.</td><td>—</td><td>Sonido de la puerta y música.</td></tr>
+    <tr><td class="seg">7 – 9</td><td>Recepción lo saluda mirando a cámara.</td><td><span class="txt">Te reciben por tu nombre</span></td><td><b>Recepción, en cámara:</b> "¡Bienvenido a Oli &amp; Eli!"</td></tr>
+    <tr><td class="seg">9 – 11</td><td>Le entregan la bebida de cortesía; se ve su mano recibiéndola.</td><td><span class="txt">Bebida de cortesía</span></td><td>Música.</td></tr>
+    <tr><td class="seg">11 – 14</td><td>Sentado en la silla, mira al barbero en el espejo mientras le explica qué corte le queda mejor.</td><td><span class="txt">Asesoría antes de cortar</span></td><td><b>Barbero, en cámara:</b> "Con tu forma de cara, te queda mejor esto."</td></tr>
+    <tr><td class="seg">14 – 16</td><td>La máquina cortando, de cerca.</td><td>—</td><td>Música.</td></tr>
+    <tr><td class="seg">16 – 19</td><td>Le ponen la mascarilla de puntos negros y luego se la retiran despacio.</td><td><span class="txt">Mascarilla de puntos negros</span></td><td>Música.</td></tr>
+    <tr><td class="seg">19 – 21</td><td>Se mira al espejo con el corte terminado y sonríe.</td><td><span class="txt">Y sales así</span></td><td>Música.</td></tr>
+    <tr><td class="seg">21 – 23</td><td>El barbero le choca la mano a la cámara.</td><td>Agenda en el link del perfil 👆</td><td><b>Barbero, en cámara:</b> "Nos vemos en 15 días."</td></tr>
+  </table>
+</div>
+
+<div class="guionceo">
   <div class="tit"><span>Video 3 · Halloween en la barbería 👻</span><span>Sábado 31 · 20:00 · 18 s</span></div>
   <table>
     <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
@@ -131,21 +148,6 @@ ol.preg li { margin-bottom: 1.5mm; }
     <tr><td class="seg">6 – 13</td><td>Dos barberos disfrazados cortando a clientes, y la reacción del cliente al verse.</td><td>—</td><td>Música.</td></tr>
     <tr><td class="seg">13 – 16</td><td>Foto grupal: todos juntos, saludando a cámara.</td><td><span class="txt">¿Cuál disfraz se lleva el premio? 👇</span></td><td><b>Todo el equipo, en cámara:</b> "¡Feliz Halloween!"</td></tr>
     <tr><td class="seg">16 – 18</td><td>Cierre sobre la foto grupal.</td><td>Feliz Halloween desde Oli &amp; Eli<br>Agenda en el link del perfil 👆</td><td>Música.</td></tr>
-  </table>
-</div>
-
-<div class="guionceo">
-  <div class="tit"><span>Video 2 · Tu primera vez en Oli &amp; Eli</span><span>Domingo 1 nov · 18:00 · 20 s</span></div>
-  <table>
-    <tr><th class="seg">Segundos</th><th>Qué se ve</th><th>Texto</th><th>Qué se escucha</th></tr>
-    <tr><td class="seg">0 – 2</td><td>Se abre la puerta del local, como si entrara quien mira el video.</td><td><span class="txt">POV: tu primera vez en Oli &amp; Eli</span></td><td>Música en tendencia.</td></tr>
-    <tr><td class="seg">2 – 4</td><td>Recepción saluda mirando a cámara.</td><td><span class="txt">Te reciben por tu nombre</span></td><td><b>Recepción, en cámara:</b> "¡Bienvenido a Oli &amp; Eli!"</td></tr>
-    <tr><td class="seg">4 – 6</td><td>Le entregan la bebida de cortesía.</td><td><span class="txt">Bebida de cortesía</span></td><td>Música.</td></tr>
-    <tr><td class="seg">6 – 9</td><td>El barbero, frente al espejo, explica qué corte le queda mejor.</td><td><span class="txt">Asesoría antes de cortar</span></td><td><b>Barbero, en cámara:</b> "Con tu forma de cara, te queda mejor esto."</td></tr>
-    <tr><td class="seg">9 – 11</td><td>La máquina cortando, de cerca.</td><td>—</td><td>Música.</td></tr>
-    <tr><td class="seg">11 – 16</td><td>Le ponen la mascarilla de puntos negros y luego se la retiran despacio.</td><td><span class="txt">Mascarilla de puntos negros</span></td><td>Música.</td></tr>
-    <tr><td class="seg">16 – 18</td><td>El cliente se mira al espejo y sonríe.</td><td><span class="txt">Y sales así</span></td><td>Música.</td></tr>
-    <tr><td class="seg">18 – 20</td><td>El barbero le choca la mano a la cámara.</td><td>Agenda en el link del perfil 👆</td><td><b>Barbero, en cámara:</b> "Nos vemos en 15 días."</td></tr>
   </table>
 </div>
 </section>
@@ -172,7 +174,7 @@ ol.preg li { margin-bottom: 1.5mm; }
 <h2>Para aprobar</h2>
 <ul class="check">
   <li>Los 3 videos de esta semana y sus días de publicación.</li>
-  <li>Grabaciones: jueves 29 de 15:00 a 17:15 y sábado 31 de 14:00 a 16:00, con el equipo disfrazado.</li>
+  <li>Grabaciones: jueves 29 de 15:00 a 17:30 y sábado 31 de 14:00 a 16:00, con el equipo disfrazado.</li>
   <li>Desde noviembre: 3 videos por semana con la rutina de arriba.</li>
   <li>Responder comentarios a las 19:15 y a las 21:00 los días que sale un video.</li>
   <li>Meta de 10 clientes nuevos por TikTok en noviembre.</li>
