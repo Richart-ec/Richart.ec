@@ -1,0 +1,103 @@
+{
+  "_doc": "Option B timing (global frames @30fps, 120 BPM: beat = 15 f). Read by src/b/*.tsx and audio-src/compose_b.py.",
+  "fps": 30,
+  "durationInFrames": 450,
+  "hook": {
+    "words": [
+      0,
+      20
+    ],
+    "wordDur": 6,
+    "wordExit": 16,
+    "af": [
+      [
+        2,
+        300,
+        760
+      ],
+      [
+        7,
+        760,
+        1180
+      ],
+      [
+        12,
+        380,
+        1260
+      ],
+      [
+        18,
+        700,
+        640
+      ],
+      [
+        24,
+        540,
+        1020
+      ]
+    ],
+    "afLock": 36,
+    "shutter": 45
+  },
+  "burst": {
+    "start": 45,
+    "count": 30,
+    "fpsLabel": 75,
+    "exit": 112
+  },
+  "split": {
+    "in": 120,
+    "inDur": 14,
+    "top": 128,
+    "bottom": 134,
+    "badge": 140,
+    "footnote": 142,
+    "exit": 216
+  },
+  "kinetic": {
+    "words": [
+      225,
+      232,
+      240
+    ],
+    "exit": 301
+  },
+  "end": {
+    "in": 304,
+    "sonyLetters": [
+      310,
+      312,
+      314,
+      316
+    ],
+    "store": 314,
+    "scala": 318,
+    "pin": 324,
+    "address": 328,
+    "logo": 332,
+    "af": [
+      [
+        344,
+        300,
+        600
+      ],
+      [
+        352,
+        760,
+        1500
+      ],
+      [
+        360,
+        420,
+        700
+      ],
+      [
+        366,
+        540,
+        1200
+      ]
+    ],
+    "afLock": 372,
+    "shutter": 390
+  }
+}

@@ -92,3 +92,14 @@ Ver `youtube/NOTES.md` (YouTube bloquea la reproducción desde la nube; se usaro
 
 Marcas, logos y fotos son de Sony y de Scala Shopping. Este spot es una propuesta: antes de
 publicarlo hace falta la aprobación de ambas marcas.
+
+## Opción B — "A través del visor" (`SonyScalaCumbayaB`, `src/b/`, `audio-src/compose_b.py`)
+
+Datos nuevos usados y su fuente:
+- **"Hasta 30 fps"** (α7 V): ficha ILCE-7M5, "Disparo continuo sin espacios negros hasta a 30 fps
+  con seguimiento de AF/AE completo". La ráfaga del spot dispara una foto por fotograma: 30 en 1 s real.
+- **"Segunda planta alta · Local L321"**: store.sony.com.ec/tiendas-fisicas.
+- **"N.º 1 en ventas"** (α6400K): mismo ranking que la opción A, con su nota al pie.
+- El verde del recuadro de AF imita el indicador de enfoque de las cámaras Sony; no es un color de la tienda.
+- **"PRUÉBALAS EN TUS MANOS"** supone que la tienda tiene unidades de demostración de α6400 y a7 V.
+  Confirmarlo con el encargado antes de publicar.
