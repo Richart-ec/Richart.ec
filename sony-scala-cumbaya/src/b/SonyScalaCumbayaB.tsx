@@ -61,7 +61,15 @@ const Hook: React.FC = () => {
       <Slam text="DISPARA." at={H.words[1]} top={866} size={188} exit={[{ at: H.shutter, dur: 2, opacity: 0, ease: "in" }]} />
       <Viewfinder
         opacity={vf * interpolate(frame, [H.shutter, H.shutter + 2], [1, 0], clamp)}
-        af={{ x: af.x, y: af.y, size: frame >= H.afLock ? 230 : 170, locked: frame >= H.afLock, visible: frame < H.shutter }}
+        af={{
+          x: af.x,
+          y: af.y,
+          // small tracking square; on focus it snaps to the subject (the word)
+          w: interpolate(frame, [H.afLock - 3, H.afLock + 2], [104, 860], { ...clamp, easing: EASE.out }),
+          h: interpolate(frame, [H.afLock - 3, H.afLock + 2], [104, 230], { ...clamp, easing: EASE.out }),
+          pulse: interpolate(frame, [H.afLock, H.afLock + 2, H.afLock + 10], [0, 1, 0], clamp),
+          visible: frame >= 2 && frame < H.shutter,
+        }}
       />
     </AbsoluteFill>
   );
@@ -294,7 +302,7 @@ const Kinetic: React.FC = () => {
 const End: React.FC = () => {
   const frame = useCurrentFrame();
   const E = B.end;
-  const af = afPosition(frame, E.af as unknown as AfKey[], { x: 540, y: 960 });
+  const af = afPosition(frame, E.af as unknown as AfKey[], { x: 540, y: 540 });
   const vf = interpolate(frame, [E.in, E.in + 6, E.shutter, E.shutter + 1], [0, 1, 1, 0], clamp);
   const SCALA_H = 300;
   const SCALA_W = (SCALA_H * 326) / 472;
@@ -333,7 +341,15 @@ const End: React.FC = () => {
       </Motion>
       <Viewfinder
         opacity={vf}
-        af={{ x: af.x, y: af.y, size: frame >= E.afLock ? 360 : 190, locked: frame >= E.afLock, visible: frame >= E.af[0][0] - 4 }}
+        af={{
+          x: af.x,
+          y: af.y,
+          // tracks the information line by line, then snaps to the Scala Shopping sign
+          w: interpolate(frame, [E.afLock - 4, E.afLock + 2], [110, 270], { ...clamp, easing: EASE.out }),
+          h: interpolate(frame, [E.afLock - 4, E.afLock + 2], [110, 360], { ...clamp, easing: EASE.out }),
+          pulse: interpolate(frame, [E.afLock, E.afLock + 2, E.afLock + 10], [0, 1, 0], clamp),
+          visible: frame >= E.af[0][0] - 2,
+        }}
       />
     </AbsoluteFill>
   );
