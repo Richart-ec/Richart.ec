@@ -1,0 +1,4643 @@
+{
+  "https://store.sony.com.ec/": {
+    "title": "Sony Store Ecuador",
+    "bg": [
+      [
+        "#FFFFFF",
+        22632622
+      ],
+      [
+        "#1F2024",
+        14542902
+      ],
+      [
+        "#000000",
+        1315034
+      ],
+      [
+        "#000000 a=0.5",
+        1296000
+      ],
+      [
+        "#F1F5F9",
+        528250
+      ],
+      [
+        "#FFFFFF a=0.92",
+        200193
+      ],
+      [
+        "#A500AA",
+        26928
+      ],
+      [
+        "#EFEFEF",
+        22823
+      ],
+      [
+        "#2D75C7",
+        15261
+      ],
+      [
+        "#4572ED",
+        7360
+      ],
+      [
+        "#000000 a=0.345",
+        4671
+      ],
+      [
+        "#F25529",
+        4255
+      ],
+      [
+        "#00CC6F",
+        2448
+      ],
+      [
+        "#1956CA",
+        576
+      ],
+      [
+        "#F660A9",
+        576
+      ],
+      [
+        "#FA752D",
+        576
+      ],
+      [
+        "#C3C3DA",
+        576
+      ],
+      [
+        "#FFFFFF a=0.4",
+        162
+      ],
+      [
+        "#CACBCC",
+        100
+      ],
+      [
+        "#575757",
+        100
+      ]
+    ],
+    "color": [
+      [
+        "#83838F",
+        1360
+      ],
+      [
+        "#2F353D",
+        1158
+      ],
+      [
+        "#696969",
+        758
+      ],
+      [
+        "#0000EE",
+        364
+      ],
+      [
+        "#000000",
+        304
+      ],
+      [
+        "#54545F",
+        178
+      ],
+      [
+        "#FFFFFF",
+        166
+      ],
+      [
+        "#3F3F40",
+        142
+      ],
+      [
+        "#6F6F7B",
+        101
+      ],
+      [
+        "#C1330B",
+        98
+      ],
+      [
+        "#F75229",
+        98
+      ],
+      [
+        "#6B6B76",
+        93
+      ],
+      [
+        "#63666A",
+        46
+      ],
+      [
+        "#4572ED",
+        24
+      ],
+      [
+        "#5887F5",
+        24
+      ],
+      [
+        "#5D58F5",
+        22
+      ],
+      [
+        "#4572EC",
+        10
+      ],
+      [
+        "#6F6F6F",
+        3
+      ]
+    ],
+    "border": [
+      [
+        "#000000",
+        16
+      ],
+      [
+        "#83838F",
+        8
+      ],
+      [
+        "#E3E4E6",
+        4
+      ],
+      [
+        "#9393A0",
+        4
+      ],
+      [
+        "#FFFFFF a=0.4",
+        3
+      ],
+      [
+        "#E4E7EB",
+        3
+      ],
+      [
+        "#E3EAFF",
+        1
+      ],
+      [
+        "#767676",
+        1
+      ],
+      [
+        "#808080",
+        1
+      ],
+      [
+        "#E6E6E6",
+        1
+      ]
+    ],
+    "fonts": [
+      [
+        "SST W01 Roman 400",
+        3815
+      ],
+      [
+        "SST W01 Roman 700",
+        340
+      ],
+      [
+        "SST W01 Bold 700",
+        274
+      ],
+      [
+        "SST W01 Light 300",
+        148
+      ],
+      [
+        "SST W01 Medium 400",
+        133
+      ],
+      [
+        "Open Sans 400",
+        82
+      ],
+      [
+        "SST W01 Roman 600",
+        64
+      ],
+      [
+        "-apple-system 400",
+        58
+      ],
+      [
+        "Open Sans 600",
+        24
+      ],
+      [
+        "SST W01 Roman 500",
+        11
+      ]
+    ],
+    "vars": {},
+    "fontFaces": [
+      "Oswald 400 unloaded",
+      "Sony-Gallery-Icons 400 unloaded",
+      "Sony-Feature-Icons 400 unloaded",
+      "Sony-System-Icons normal unloaded",
+      "Sony-Icons-Icomoon normal unloaded",
+      "Sony-BS-Icons normal unloaded",
+      "SST W01 Light 300 loaded",
+      "SST W01 Roman 400 loaded",
+      "SST W01 Medium 500 loaded",
+      "SST W01 Bold 700 loaded",
+      "Sony-System-Icons normal loaded",
+      "Sony-Fizzmod-Icons normal loaded",
+      "Sony-Icons-Custom normal unloaded",
+      "bootstrap-icons normal unloaded",
+      "GWX2 Outfit 600 900 unloaded",
+      "GWX2 Inter 400 700 unloaded"
+    ],
+    "samples": [
+      {
+        "tag": "span",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-eyebrow-gwx",
+        "text": "Este Halloween, la tecnología cobra vida.",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", sans-serif, \"Helvetica Neue\", Helvetica, A",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-description-gwx",
+        "text": "Hasta 45% de descuento y págalo hasta en 24 meses ",
+        "color": "#54545F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", sans-serif, \"Helvetica Neue\", Helvetica, Ar",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-cta-button-gwx",
+        "text": "Ver ofertas",
+        "color": "#FFFFFF",
+        "bg": "#2D75C7",
+        "font": "\"SST W01 Roman\", sans-serif, Helvetica, Arial",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-eyebrow-gwx",
+        "text": "Este Halloween, la tecnología cobra vida.",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", sans-serif, \"Helvetica Neue\", Helvetica, A",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-description-gwx",
+        "text": "Hasta 45% de descuento y págalo hasta en 24 meses ",
+        "color": "#54545F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", sans-serif, \"Helvetica Neue\", Helvetica, Ar",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-cta-button-gwx",
+        "text": "Ver ofertas",
+        "color": "#FFFFFF",
+        "bg": "#2D75C7",
+        "font": "\"SST W01 Roman\", sans-serif, Helvetica, Arial",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-eyebrow-gwx",
+        "text": "Aprovecha 35% OFF en el hit del mes",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", sans-serif, \"Helvetica Neue\", Helvetica, A",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-description-gwx",
+        "text": "Y págalo en 12 meses sin interés con envío GRATIS.",
+        "color": "#54545F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", sans-serif, \"Helvetica Neue\", Helvetica, Ar",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "pasonyb2cqa-general-apps-0-x-banner-cta-button-gwx",
+        "text": "Aprovecha ahora",
+        "color": "#FFFFFF",
+        "bg": "#2D75C7",
+        "font": "\"SST W01 Roman\", sans-serif, Helvetica, Arial",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--nuevos-lanzam",
+        "text": "Nuevos Lanzamientos",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "37px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--nuevos-lanzam",
+        "text": "TV BRAVIA 7 II RGB LED Google TVLa evolución del c",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--nuevos-lanzamientos-slide",
+        "text": "TV BRAVIA 7 II RGB LED Google TVLa evolución del c",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--nuevos-lanzamientos-slider-text",
+        "text": "Conócelo >>",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--nuevos-lanzam",
+        "text": "Cámara full-frame ILCE-7M5: Redefine lo esencialEx",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--nuevos-lanzamientos-slide",
+        "text": "Cámara full-frame ILCE-7M5: Redefine lo esencial",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--nuevos-lanzamientos-slider-text",
+        "text": "Descúbrela >>",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--ofertas-mes t-heading-3 v",
+        "text": "Aprovecha el FESTIVAL DE PROMOCIONES",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "48 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Audífonos inalámbricos con noise cancelling WF-C71",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "WF-C710N/L",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$79,98",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$154,99",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "35 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Parlante portátil inalámbrico ULT FIELD 1 |SRS-ULT",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "SRS-ULT10/WCLA",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$99,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$153,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "43 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Alpha 7 III con sensor de imagen full-frame de 35 ",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "ILCE-7M3/BC",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.598,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.819,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "sc-bdnxRM dYCTWq pasonyb2cqa-shelf-custom-0-x-flag",
+        "text": "NUEVO",
+        "color": "#FFFFFF",
+        "bg": "#00CC6F",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Serie ULT POWER SOUND | Parlante para fiestas de B",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "SRS-ULT900/C LA9",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$999,01",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--ofertas-mes t-heading-3 v",
+        "text": "ENCUENTRA LA TV IDEAL PARA TI",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--ofertas-mes",
+        "text": "Disfruta de la mejor calidad en imagen, brillo y c",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "13 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-pulgadas",
+        "text": "55''",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Microsoft JhengHei\", \"Hiragino Kaku Gothi",
+        "weight": "400",
+        "size": "10px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "BRAVIA 2 II | Procesador 4K X1™ | 4K Ultra HD | Al",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "K-55S20M2 UCM",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.049,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.209,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "21 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-pulgadas",
+        "text": "75''",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Microsoft JhengHei\", \"Hiragino Kaku Gothi",
+        "weight": "400",
+        "size": "10px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "BRAVIA 2 II | Procesador 4K X1™ | 4K Ultra HD | Al",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "K-75S20M2 UCM",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.499,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.899,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "21 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-pulgadas",
+        "text": "75''",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Microsoft JhengHei\", \"Hiragino Kaku Gothi",
+        "weight": "400",
+        "size": "10px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "BRAVIA 5 | Procesador XR | Mini LED | 4K Ultra HD ",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "K-75XR50 LA8",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.299,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.899,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "20 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-pulgadas",
+        "text": "55''",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Microsoft JhengHei\", \"Hiragino Kaku Gothi",
+        "weight": "400",
+        "size": "10px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "BRAVIA 5 | Procesador XR | Mini LED | 4K Ultra HD ",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "K-55XR50 LA8",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.598,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.999,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--ofertas-mes t-heading-3 v",
+        "text": "LAS MEJORES CÁMARAS AL MISMO PRECIO DE USA",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--ofertas-mes",
+        "text": "Cámaras de fotografía, lentes, video y más con gar",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "43 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Alpha 7 III con sensor de imagen full-frame de 35 ",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-product-summary-2-x-skuNameContainer",
+        "text": "| ILCE-7M3/BC",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.598,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.819,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "16 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Cámara APS-C a6700 premium con montura E",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-product-summary-2-x-skuNameContainer",
+        "text": "| ILCE-6700/BQE38",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.598,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.899,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "45 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "FE 50mm F1.8",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-product-summary-2-x-skuNameContainer",
+        "text": "| SEL50F18F//CSYX",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$218,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$399,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "35 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "Vario-Tessar® T* FE 16-35 mm F4 ZA OSS",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-product-summary-2-x-skuNameContainer",
+        "text": "| SEL1635Z//Q SYX",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.099,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.699,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--favoritos-son",
+        "text": "Favoritos Sony Store",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--favoritos-son",
+        "text": "Cine en Casa",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Google TV",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Televisores OLED",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Barras de Sonido",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Pantallas grandes 85” y 75” LED",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph",
+        "text": "Captura el momento",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Cámaras profesionales Alpha foto y video",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Cámaras Vlogger",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Filmadoras de video Cinema Line",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Lentes para cámaras pro",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Cámaras Full-Frame",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph",
+        "text": "Audio Premium",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Parlantes ULT",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Parlantes Bluetooth",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Audífonos Inalámbricos",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Parlantes inalámbricos con bateria",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Audífonos True Wireless",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph",
+        "text": "PlayStation",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Consolas PS5",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Juegos Para PlayStation",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Control Dualsense",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Accesorios y Dualshock",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--favoritos-sony-container-item-c",
+        "text": "Auriculares Headset PlayStation5",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--titulo-prefoo",
+        "text": "Recibe nuestras mejores ofertas",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "32px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-input__label db mb3 w-100 c-on-base t-small ",
+        "text": "Nombre",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-input__label db mb3 w-100 c-on-base t-small ",
+        "text": "Apellido",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-input__label db mb3 w-100 c-on-base t-small ",
+        "text": "E-mail",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "",
+        "text": "He leído y acepto las políticas  de privacidad",
+        "color": "#63666A",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "",
+        "text": "políticas  de privacidad",
+        "color": "#5887F5",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-button__label flex items-center justify-center h-100 ph6 ",
+        "text": "Suscribirme",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "500",
+        "size": "13px",
+        "transform": "capitalize"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-titulo-beneficios",
+        "text": "Compra fácil",
+        "color": "#F75229",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-rich-text-content-beneficios",
+        "text": "Elige tu producto, selecciona el medio de pago, la",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-titulo-beneficios",
+        "text": "Medios de Pago",
+        "color": "#F75229",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-rich-text-content-beneficios",
+        "text": "Con tarjetas de crédito y débito participantes.",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-titulo-beneficios",
+        "text": "Envíos a todo el país",
+        "color": "#F75229",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-rich-text-content-beneficios",
+        "text": "recibe tus productos en cualquier lugar del país. ",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-titulo-beneficios-conoce-mas",
+        "text": "Conoce más",
+        "color": "#4572EC",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-titulo-beneficios",
+        "text": "Garantía directa Sony",
+        "color": "#F75229",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-rich-text-content-beneficios",
+        "text": "Todas tus compras cuentan con el respaldo directo ",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-rich-text-titulo-beneficios",
+        "text": "Compra segura 100% certificada",
+        "color": "#F75229",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-rich-text-0-x-paragraph-titulo-ec",
+        "text": "¿Necesitas información de tu compra?",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "27px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-rich-text-0-x-paragraph-content-ec",
+        "text": "Escríbenos a sso.ecuador@am.sony.com para solucion",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Light\"",
+        "weight": "300",
+        "size": "20px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--help-online-info-ec",
+        "text": "sso.ecuador@am.sony.com",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Light\"",
+        "weight": "300",
+        "size": "20px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Busca un Distribuidor",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Busca un Distribuidor",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "GlobalFooter__SearchFormSubmit js-datalayer-action-event",
+        "text": "Buscar",
+        "color": "#000000",
+        "bg": "#EFEFEF",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooter__SearchHelpLink js-datalayer-action-event",
+        "text": "Tiendas y Distribuidores",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Comunidad",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Comunidad",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Comunidad Alpha",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Blog PlayStation",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Ayuda con Mi Producto",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Ayuda Sony Store",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Sony Careers",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Noticias e Información",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Noticias e Información",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Acerca de Sony",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Centro de Prensa",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Sony y el Medio Ambiente",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__CountryRegionText",
+        "text": "Ecuador",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSecondLinkListItem__Link js-datalayer-action-event",
+        "text": "Para Profesionales",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSecondLinkListItem__Link js-datalayer-action-event",
+        "text": "Contacto",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Únete a nosotros en Facebook",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en Facebook",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Twitter",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "label",
+        "text": "Twittear",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en Twitter",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Suscríbete en YouTube",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en YouTube",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Instagram",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "btn insta",
+        "text": "Venos en Instagram",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Tik Tok",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Síguenos en Tik Tok",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterMetaLinkListItem__Link js-datalayer-action-event",
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterMetaLinkListItem__Link js-datalayer-action-event",
+        "text": "TÉRMINOS Y CONDICIONES",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "GlobalFooter__Copyright",
+        "text": "© 2026 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-search-2-x-itemListTitle c-on-base",
+        "text": "Términos más buscados",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "14px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 8 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 2 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "tv bravia",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 7 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "ps5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "pro-audio",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "wf-ls910n",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "sony",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListPrefix",
+        "text": "10.",
+        "color": "#6F6F6F",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "k-55s30",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "",
+        "text": "Acerca de las cookies en este sitio",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "19.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "",
+        "text": "Este sitio web utiliza cookies estrictamente neces",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "",
+        "text": "Política de Privacidad",
+        "color": "#5D58F5",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Configuración de cookies",
+        "color": "#000000",
+        "bg": "#FFFFFF",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Rechazarlas todas",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Aceptar todo",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      }
+    ]
+  },
+  "https://store.sony.com.ec/lentes-gm": {
+    "title": "Sony Store Ecuador",
+    "bg": [
+      [
+        "#000000",
+        15563234
+      ],
+      [
+        "#FFFFFF",
+        11839243
+      ],
+      [
+        "#F1F5F9",
+        3732840
+      ],
+      [
+        "#000000 a=0.5",
+        1296000
+      ],
+      [
+        "#F25529",
+        17751
+      ],
+      [
+        "#000000 a=0.6",
+        14700
+      ],
+      [
+        "#A500AA",
+        7344
+      ],
+      [
+        "#FF6510",
+        2448
+      ]
+    ],
+    "color": [
+      [
+        "#83838F",
+        2219
+      ],
+      [
+        "#2F353D",
+        930
+      ],
+      [
+        "#696969",
+        758
+      ],
+      [
+        "#6F6F7B",
+        118
+      ],
+      [
+        "#3F3F40",
+        103
+      ],
+      [
+        "#FFFFFF",
+        100
+      ],
+      [
+        "#000000",
+        79
+      ],
+      [
+        "#C1330B",
+        27
+      ],
+      [
+        "#6B6B76",
+        27
+      ],
+      [
+        "#5D58F5",
+        22
+      ],
+      [
+        "#5787F4",
+        11
+      ],
+      [
+        "#6F6F6F",
+        3
+      ]
+    ],
+    "border": [
+      [
+        "#000000",
+        2
+      ],
+      [
+        "#5787F4",
+        1
+      ],
+      [
+        "#E6E6E6",
+        1
+      ]
+    ],
+    "fonts": [
+      [
+        "SST W01 Roman 400",
+        3277
+      ],
+      [
+        "SST W01 Roman 700",
+        735
+      ],
+      [
+        "SST W01 Medium 400",
+        161
+      ],
+      [
+        "Open Sans 400",
+        82
+      ],
+      [
+        "SST W01 Roman 600",
+        64
+      ],
+      [
+        "SST W01 Bold 700",
+        43
+      ],
+      [
+        "Open Sans 600",
+        24
+      ],
+      [
+        "SST W01 Roman 500",
+        11
+      ]
+    ],
+    "vars": {},
+    "fontFaces": [
+      "Sony-Gallery-Icons 400 unloaded",
+      "Sony-Feature-Icons 400 unloaded",
+      "Sony-System-Icons normal unloaded",
+      "Sony-Icons-Icomoon normal unloaded",
+      "Sony-BS-Icons normal unloaded",
+      "SST W01 Light 300 unloaded",
+      "SST W01 Roman 400 loaded",
+      "SST W01 Medium 500 loaded",
+      "SST W01 Bold 700 loaded",
+      "Sony-System-Icons normal loaded",
+      "Sony-Fizzmod-Icons normal loaded",
+      "Sony-Icons-Custom normal unloaded",
+      "bootstrap-icons normal unloaded",
+      "GWX2 Outfit 600 900 unloaded",
+      "GWX2 Inter 400 700 unloaded"
+    ],
+    "samples": [
+      {
+        "tag": "div",
+        "cls": "vtex-rich-text-0-x-paragraph--home-slider-main-item-pre-header",
+        "text": "Para capturar momentos",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "13px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-rich-text-0-x-paragraph--home-slider-main-item-title",
+        "text": "El compañero ideal para tu cámara",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "34px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link--home-slider-main-item-button",
+        "text": "Ver lentes",
+        "color": "#FFFFFF",
+        "bg": "#F25529",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "14px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--title-product-camera t-he",
+        "text": "Mira el mundo a través de nuestros lentes",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "36.8px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--title-product",
+        "text": "Inspírate explorando nuestra galería, con fotos in",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL2470GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 24-70mm F2.8 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL2470GM2",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 24-70mm F2.8 GM II",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL70200GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 70-200mm F2.8 GM OSS",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL70200GM2",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 70-200mm F2.8 GM OSS II",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL1635GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 16-35mm F2.8 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL1635GM2",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 16-35mm F2.8 GM II",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL2870GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 28-70mm F2 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL35F14GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 35mm F1.4 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL50F12GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 50mm F1.2 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL50F14GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 50mm F1.4 GM",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL300F28GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 300mm F2.8 GM OSS",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h4",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--product-description-ht-ac",
+        "text": "SEL85F14GM2",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Medium\", \"Helvetica Neue\", Helvetica, Arial, sans-s",
+        "weight": "400",
+        "size": "22px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--product-descr",
+        "text": "FE 85mm F1.4 GM II",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL2470GM | Zoom de rango medio perfecto",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Diseño y tecnología se juntan para producir uno de",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL2470GM2 | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "El lente Sony 24-70mm 2.8 GM ha sido actualizado a",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL2470GM2 | Review por Daniel Blanco",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Descubre lo que piensa Daniel Blanco del lente Son",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL2470GM2 | Video de muestra",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Es el complemento ideal para cubrir una amplia gam",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL70200GM2 | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "El lente Sony 70-200mm 2.8 GM II es simplemente un",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL70200GM2 | Review por Robinski y Luis Solano",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Primeras impresiones en una expedición por los pai",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL1635GM2 | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Volvió el lente favorito de muchos, más ligero, má",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL1635GM2 | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Volvió el lente favorito de muchos, más ligero, má",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL1635GM2 | Review por Jean Paul De la Harpe",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Un lente increíblemente nítido, el cual cubre una ",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL1635GM2 | Review por David and Joseph",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Te contamos TODO sobre el lente de Sony 16-35 GM2.",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL1635GM2 | Objetivo zoom gran angular",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Extraordinaria resolución y bokeh en un lente vers",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL35F14GM | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "El lente Sony 35mm 1.4 GM es simplemente una besti",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL35F14GM | Lleva tu creatividad a otro nivel",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Tecnología G Master y compatibilidad total con Eye",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL50F12GM | Review por Srod Almenar",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Srod Almenanar explica porque el Sony FE 50mm GM e",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL50F12GM | Lente prime de 50 mm",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Captura momentos como nunca antes lo has hecho con",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL50F12GM | Review por Srod Almenara",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "El top de los lentes top gran angulares, el Sony 1",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL50F12GM | Review por Jean Paul De la Harpe",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Una excelente herramientas para la fotografía de p",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--videoSquare-videoblogs-ti",
+        "text": "SEL50F12GM | Zoom ultra gran angular",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "21.92px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--videoSquare-v",
+        "text": "Un lente ligero con enfoque automático rápido y pr",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--Vloggers-videoblogs-title",
+        "text": "Encuentra tu lente ideal:",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "38px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "FE 35 mm F1.4 GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "SEL35F14GM/Q",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelAditionalDescription",
+        "text": "SEL35F14GM",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Montura tipo E con formato Full Frame",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Prime gran angular G Master F1.4",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Ligera y compacta para una movilidad y un manejo e",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.598,99",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.699,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--buy-button-sh",
+        "text": "Ver Más",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "16px",
+        "transform": "capitalize"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "33 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "FE 24-70 mm F2.8 GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "SEL2470GM//QSYX",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelAditionalDescription",
+        "text": "SEL2470GM",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Montura tipo E con formato Full Frame",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Resolución y detalles sin precedentes",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Zoom estándar G Master",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.799,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.699,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--buy-button-sh",
+        "text": "Ver Más",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "16px",
+        "transform": "capitalize"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-buylocal",
+        "text": "buylocal",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "0px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "sc-bdnxRM ca-DlVw pasonyb2cqa-shelf-custom-0-x-flag",
+        "text": "PREVENTA",
+        "color": "#FFFFFF",
+        "bg": "#FF6510",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-flag pasonyb2cqa-shelf-custom-0-x-off pasonyb2cqa-s",
+        "text": "30 %",
+        "color": "#FFFFFF",
+        "bg": "#A500AA",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body",
+        "text": "FE 16-35mm F2.8 GM",
+        "color": "#2F353D",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"SST W01 Medium\", \"Microsoft JhengHei\", \"Hi",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelSkuName",
+        "text": "SEL1635GM   SYX",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "11px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-labelAditionalDescription",
+        "text": "SEL1635GM | Entregas a partir de: 18 de Noviembre ",
+        "color": "#6F6F7B",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Alta resolución y efecto bokeh superior",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Montura tipo E con formato Full Frame",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "li",
+        "cls": "pasonyb2cqa-shelf-custom-0-x-Feature",
+        "text": "Lente de zoom gran angular G Master",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$1.899,00",
+        "color": "#C1330B",
+        "bg": "transparent",
+        "font": "\"SST W01 Bold\"",
+        "weight": "700",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-product-price-1-x-currencyContainer",
+        "text": "$2.699,00",
+        "color": "#6B6B76",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "12px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--buy-button-sh",
+        "text": "Ver Más",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\"",
+        "weight": "400",
+        "size": "16px",
+        "transform": "capitalize"
+      },
+      {
+        "tag": "div",
+        "cls": "vtex-button__label flex items-center justify-center h-100 ph5 ",
+        "text": "Mostrar más",
+        "color": "#5787F4",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "500",
+        "size": "14px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "h2",
+        "cls": "",
+        "text": "Acerca de las cookies en este sitio",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "19.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "",
+        "text": "Este sitio web utiliza cookies estrictamente neces",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "",
+        "text": "Política de Privacidad",
+        "color": "#5D58F5",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Configuración de cookies",
+        "color": "#000000",
+        "bg": "#FFFFFF",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Rechazarlas todas",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Aceptar todo",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-search-2-x-itemListTitle c-on-base",
+        "text": "Términos más buscados",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "14px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 8 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 2 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "tv bravia",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 7 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "ps5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "pro-audio",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "wf-ls910n",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "sony",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListPrefix",
+        "text": "10.",
+        "color": "#6F6F6F",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "k-55s30",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      }
+    ]
+  },
+  "https://store.sony.com.ec/tiendas-fisicas": {
+    "title": "Tiendas Fisicas",
+    "bg": [
+      [
+        "#FFFFFF",
+        17528589
+      ],
+      [
+        "#1F2024",
+        14541750
+      ],
+      [
+        "#000000 a=0.5",
+        1296000
+      ],
+      [
+        "#F1F5F9",
+        571995
+      ],
+      [
+        "#EFEFEF",
+        22823
+      ],
+      [
+        "#000000",
+        11234
+      ]
+    ],
+    "color": [
+      [
+        "#696969",
+        758
+      ],
+      [
+        "#83838F",
+        572
+      ],
+      [
+        "#0000EE",
+        341
+      ],
+      [
+        "#000000",
+        304
+      ],
+      [
+        "#3F3F40",
+        237
+      ],
+      [
+        "#4572ED",
+        181
+      ],
+      [
+        "#FFFFFF",
+        144
+      ],
+      [
+        "#5D58F5",
+        22
+      ],
+      [
+        "#6F6F6F",
+        3
+      ]
+    ],
+    "border": [
+      [
+        "#000000",
+        16
+      ],
+      [
+        "#767676",
+        1
+      ],
+      [
+        "#808080",
+        1
+      ],
+      [
+        "#E6E6E6",
+        1
+      ]
+    ],
+    "fonts": [
+      [
+        "SST W01 Roman 400",
+        2152
+      ],
+      [
+        "SST W01 Roman 700",
+        182
+      ],
+      [
+        "Open Sans 400",
+        82
+      ],
+      [
+        "SST W01 Roman 600",
+        64
+      ],
+      [
+        "-apple-system 400",
+        58
+      ],
+      [
+        "Open Sans 600",
+        24
+      ]
+    ],
+    "vars": {},
+    "fontFaces": [
+      "Sony-Gallery-Icons 400 unloaded",
+      "Sony-Feature-Icons 400 unloaded",
+      "Sony-System-Icons normal unloaded",
+      "Sony-Icons-Icomoon normal unloaded",
+      "Sony-BS-Icons normal unloaded",
+      "SST W01 Light 300 unloaded",
+      "SST W01 Roman 400 loaded",
+      "SST W01 Medium 500 unloaded",
+      "SST W01 Bold 700 unloaded",
+      "Sony-Fizzmod-Icons normal unloaded",
+      "Sony-Icons-Custom normal unloaded",
+      "bootstrap-icons normal unloaded",
+      "GWX2 Outfit 600 900 unloaded",
+      "GWX2 Inter 400 700 unloaded"
+    ],
+    "samples": [
+      {
+        "tag": "h1",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--copy-andino-landing-main-",
+        "text": "Vive una experiencia única en tecnología",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "38px",
+        "transform": "none"
+      },
+      {
+        "tag": "h3",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--copy-andino-landing-main-",
+        "text": "Visita nuestras tiendas Sony Store y disfruta los ",
+        "color": "#FFFFFF",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "18px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--features-andino-1-de t-he",
+        "text": "SONY STORE MALL DEL SOL",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "26px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--features-andi",
+        "text": "Av. Juan Tanca Marengo y Av. Joaquín OrrantiaMall ",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "042082758",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "https://store.sony.com.ec/",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "sso.ecuador@sony.com",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--features-andino-1-de t-he",
+        "text": "SONY STORE QUICENTRO",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "26px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--features-andi",
+        "text": "Av. 6 de Diciembre y Av. Naciones UnidadesQuicentr",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "023965234",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "https://store.sony.com.ec/",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "sso.ecuador@sony.com",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--features-andino-1-de t-he",
+        "text": "SONY STORE SCALA SHOPPING MALL",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"Helvetica Neue\", Helvetica, Arial, sans-se",
+        "weight": "400",
+        "size": "26px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--features-andi",
+        "text": "Av. Oswaldo Guayasamín, Km. 12.5, Quito, Pichincha",
+        "color": "#83838F",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "0968810203",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "https://store.sony.com.ec/",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--features-andino-1-de",
+        "text": "sso.ecuador@sony.com",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "15px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--andino-footer t-heading-2",
+        "text": "Visita nuestra tienda en línea, ingresando a: www.",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "26px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "vtex-rich-text-0-x-link vtex-rich-text-0-x-link--andino-footer",
+        "text": "www.sony.com.ec",
+        "color": "#4572ED",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "26px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Busca un Distribuidor",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Busca un Distribuidor",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "GlobalFooter__SearchFormSubmit js-datalayer-action-event",
+        "text": "Buscar",
+        "color": "#000000",
+        "bg": "#EFEFEF",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooter__SearchHelpLink js-datalayer-action-event",
+        "text": "Tiendas y Distribuidores",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Comunidad",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Comunidad",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Comunidad Alpha",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Blog PlayStation",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Ayuda con Mi Producto",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Ayuda Sony Store",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Sony Careers",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Noticias e Información",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "-apple-system, BlinkMacSystemFont, \"avenir next\", avenir, \"h",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__MainItemButtonInner",
+        "text": "Noticias e Información",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Acerca de Sony",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Centro de Prensa",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterListMenuItem__Link js-datalayer-action-event",
+        "text": "Sony y el Medio Ambiente",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "GlobalFooter__CountryRegionText",
+        "text": "Ecuador",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSecondLinkListItem__Link js-datalayer-action-event",
+        "text": "Para Profesionales",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSecondLinkListItem__Link js-datalayer-action-event",
+        "text": "Contacto",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Únete a nosotros en Facebook",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en Facebook",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Twitter",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "label",
+        "text": "Twittear",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en Twitter",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Suscríbete en YouTube",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Visítanos en YouTube",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Instagram",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "btn insta",
+        "text": "Venos en Instagram",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "GlobalFooterSnsItem__TooltipHeading",
+        "text": "Síguenos en Tik Tok",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "24px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterSnsItem__TooltipTextLink js-datalayer-action-event",
+        "text": "Síguenos en Tik Tok",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterMetaLinkListItem__Link js-datalayer-action-event",
+        "text": "POLÍTICA DE PRIVACIDAD",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "GlobalFooterMetaLinkListItem__Link js-datalayer-action-event",
+        "text": "TÉRMINOS Y CONDICIONES",
+        "color": "#0000EE",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "GlobalFooter__Copyright",
+        "text": "© 2026 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS",
+        "color": "#000000",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "16px",
+        "transform": "none"
+      },
+      {
+        "tag": "h2",
+        "cls": "",
+        "text": "Acerca de las cookies en este sitio",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "19.2px",
+        "transform": "none"
+      },
+      {
+        "tag": "div",
+        "cls": "",
+        "text": "Este sitio web utiliza cookies estrictamente neces",
+        "color": "#696969",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "a",
+        "cls": "",
+        "text": "Política de Privacidad",
+        "color": "#5D58F5",
+        "bg": "transparent",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "700",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Configuración de cookies",
+        "color": "#000000",
+        "bg": "#FFFFFF",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "400",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Rechazarlas todas",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "button",
+        "cls": "",
+        "text": "Aceptar todo",
+        "color": "#FFFFFF",
+        "bg": "#000000",
+        "font": "\"SST W01 Roman\", \"San Francisco\", -apple-system, BlinkMacSys",
+        "weight": "600",
+        "size": "13.008px",
+        "transform": "none"
+      },
+      {
+        "tag": "p",
+        "cls": "vtex-search-2-x-itemListTitle c-on-base",
+        "text": "Términos más buscados",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "14px",
+        "transform": "uppercase"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 8 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 2 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "tv bravia",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "bravia 7 ii",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "ps5",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "pro-audio",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "wf-ls910n",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "sony",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListPrefix",
+        "text": "10.",
+        "color": "#6F6F6F",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "600",
+        "size": "13px",
+        "transform": "none"
+      },
+      {
+        "tag": "span",
+        "cls": "vtex-search-2-x-itemListLinkTitle c-on-base",
+        "text": "k-55s30",
+        "color": "#3F3F40",
+        "bg": "transparent",
+        "font": "\"Open Sans\", Roboto, sans-serif",
+        "weight": "400",
+        "size": "13px",
+        "transform": "none"
+      }
+    ]
+  }
+}

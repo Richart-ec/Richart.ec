@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Remotion Studio · sony-scala-cumbaya",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "sony-scala-cumbaya", "run", "dev", "--", "--no-open", "--port=3123"],
+      "port": 3123
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "font": "Noto Sans",
+    "iou": 0.424,
+    "widthRatio": 1.0125,
+    "inkRatio": 1.0333,
+    "widthErr": 0.0138,
+    "inkErr": 0.0499
+  },
+  {
+    "font": "Open Sans",
+    "iou": 0.4003,
+    "widthRatio": 1.0033,
+    "inkRatio": 0.9672,
+    "widthErr": 0.0114,
+    "inkErr": 0.0629
+  },
+  {
+    "font": "Hind",
+    "iou": 0.3789,
+    "widthRatio": 0.9829,
+    "inkRatio": 1.0599,
+    "widthErr": 0.0193,
+    "inkErr": 0.0839
+  },
+  {
+    "font": "Roboto",
+    "iou": 0.33,
+    "widthRatio": 0.9712,
+    "inkRatio": 1.0503,
+    "widthErr": 0.031,
+    "inkErr": 0.0541
+  },
+  {
+    "font": "Source Sans 3",
+    "iou": 0.3187,
+    "widthRatio": 0.9758,
+    "inkRatio": 0.9981,
+    "widthErr": 0.025,
+    "inkErr": 0.0775
+  },
+  {
+    "font": "Figtree",
+    "iou": 0.3079,
+    "widthRatio": 1.0032,
+    "inkRatio": 1.0331,
+    "widthErr": 0.0307,
+    "inkErr": 0.0764
+  },
+  {
+    "font": "Inter",
+    "iou": 0.2578,
+    "widthRatio": 1.0274,
+    "inkRatio": 1.1047,
+    "widthErr": 0.0278,
+    "inkErr": 0.1047
+  },
+  {
+    "font": "Mukta",
+    "iou": 0.2542,
+    "widthRatio": 1.0237,
+    "inkRatio": 1.1928,
+    "widthErr": 0.0237,
+    "inkErr": 0.1928
+  }
+]

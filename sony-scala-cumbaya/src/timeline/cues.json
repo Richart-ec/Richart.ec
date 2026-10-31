@@ -1,0 +1,165 @@
+{
+  "_doc": "Single source of truth for timing (global frames @30fps, 120 BPM: beat = 15 f, bar = 60 f). Read by the React scenes and by audio-src/compose.py so every SFX lands on its visual frame.",
+  "fps": 30,
+  "bpm": 120,
+  "durationInFrames": 450,
+  "opening": {
+    "letters": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "letterDur": 12,
+    "rise": {
+      "start": 14,
+      "dur": 16
+    },
+    "shine": {
+      "start": 17,
+      "dur": 16
+    },
+    "words": [
+      8,
+      11
+    ],
+    "wordDur": 10,
+    "exit": [
+      64,
+      65,
+      66
+    ],
+    "exitDur": 13
+  },
+  "kit": {
+    "whipIn": {
+      "start": 64,
+      "dur": 14
+    },
+    "focusSnap": 90,
+    "headline": [
+      78,
+      80,
+      82,
+      84
+    ],
+    "wordDur": 9,
+    "bar": {
+      "start": 92,
+      "dur": 14
+    },
+    "name": 94,
+    "sub": 97,
+    "footnote": 100,
+    "shine": 96,
+    "exit": {
+      "bar": 146,
+      "headline": 150,
+      "names": 148,
+      "footnote": 146
+    },
+    "push": {
+      "start": 150,
+      "dur": 34
+    }
+  },
+  "iris": {
+    "in": 176,
+    "words": [
+      168,
+      170,
+      172,
+      174
+    ],
+    "wordDur": 10,
+    "close": {
+      "start": 182,
+      "dur": 22
+    },
+    "shutter": {
+      "start": 203,
+      "dur": 6
+    },
+    "swap": 206,
+    "reopen": {
+      "start": 208,
+      "dur": 20
+    },
+    "openFull": {
+      "start": 238,
+      "dur": 10
+    },
+    "wordsOut": [
+      240,
+      241,
+      242,
+      243
+    ],
+    "wordsOutDur": 10
+  },
+  "pro": {
+    "camIn": {
+      "start": 240,
+      "dur": 16
+    },
+    "camFocus": 254,
+    "callout1": {
+      "dot": 252,
+      "line": 254,
+      "lineDur": 10,
+      "label": 258
+    },
+    "lensIn": {
+      "start": 262,
+      "dur": 16
+    },
+    "seal": {
+      "line": 280,
+      "lineDur": 10,
+      "wipe": 286,
+      "wipeDur": 12,
+      "glint": 298
+    },
+    "callout2": {
+      "dot": 292,
+      "line": 294,
+      "lineDur": 8,
+      "label": 296
+    },
+    "bar": {
+      "start": 300,
+      "dur": 14
+    },
+    "name": 306,
+    "sub": 309,
+    "exit": 364
+  },
+  "closing": {
+    "flash": 372,
+    "sonyLetters": [
+      372,
+      374,
+      376,
+      378
+    ],
+    "sonyLetterDur": 12,
+    "words": [
+      372,
+      374
+    ],
+    "wordDur": 9,
+    "scalaStart": 373,
+    "scalaStagger": 0.5,
+    "scalaDur": 6,
+    "pin": {
+      "start": 375,
+      "dur": 11
+    },
+    "place": 376,
+    "logo": {
+      "start": 384,
+      "dur": 14
+    },
+    "accent": 390
+  }
+}

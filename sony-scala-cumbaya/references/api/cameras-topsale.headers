@@ -1,0 +1,31 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 206 
+content-type: application/json; charset=utf-8
+x-vtex-cache-backend-connect-time: 0.000
+x-vtex-cache-backend-header-time: 1.177
+cache-control: public,max-age=0,s-maxage=300
+content-encoding: gzip
+etag: "EBB2931297FD483D846C532C43A04D88"
+x-vtex-janus-router-backend-app: portal-search-v3.27.1-k-prd-796
+no: search-api-v3
+p3p: policyref="/w3c/p3p.xml",CP="ADMa OUR NOR CNT NID DSP NOI COR"
+powered: vtex
+resources: 0-40/166
+x-vtex-operation-id: 71e905e3-951e-44a6-8e82-0b3b2d25ee4e
+x-vtex-processed-at: 10/31/2026 11:07:23
+x-vtex-remote-cache: true
+x-vtex-apicache-time: 300
+x-vtex-cache-status-janus-apicache: EXPIRED
+x-powered-by-vtex-cache: 2.6.1
+x-vtex-cache-server: ip-172-16-48-184.ec2.internal
+x-vtex-cache-time: 1.177
+vary: resources,Accept-Encoding
+x-amz-cf-pop: IAD55-P2
+x-amz-cf-id: 2UTiNqhTu7cHgnspmC0Bm6ziyjCTxe3-tu4n6XZiE8CmDuuGmZQPVg==
+date: Sat, 31 Oct 2026 11:07:23 GMT
+server-timing: cdn-cache; desc=MISS
+server-timing: edge; dur=19
+server-timing: origin; dur=1196
+server-timing: ak_p; desc="1793444842413_398500944_947806743_121253_9516_17_92_15";dur=1
+

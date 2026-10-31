@@ -1,0 +1,56 @@
+{
+  "a6400-kit": {
+    "file": "products/a6400-kit.png",
+    "width": 858,
+    "height": 458,
+    "source": "prod-ILCE-6400K-06-Front.jpg",
+    "trim": [
+      70,
+      271
+    ],
+    "holesRemoved": 2,
+    "lensCenter": {
+      "x": 547.5,
+      "y": 228.5
+    },
+    "lensBarrelRadius": 212
+  },
+  "a7v-body": {
+    "file": "products/a7v-body.png",
+    "width": 654,
+    "height": 452,
+    "source": "prod-GENBA_ILCE-7M5_01_Main_SSO_1000x1000px.jpg",
+    "trim": [
+      173,
+      274
+    ],
+    "holesRemoved": 2,
+    "sensorCenter": {
+      "x": 386.5,
+      "y": 257.5
+    },
+    "sensorSize": {
+      "w": 166,
+      "h": 116
+    }
+  },
+  "sel2470gm2": {
+    "file": "products/sel2470gm2.png",
+    "width": 451,
+    "height": 695,
+    "source": "prod-SEL2470GM2-1-Main-A.jpg",
+    "trim": [
+      490,
+      164
+    ],
+    "holesRemoved": 0,
+    "gBadge": {
+      "x": 303.35,
+      "y": 338.2
+    },
+    "gBadgeSize": {
+      "w": 29,
+      "h": 44
+    }
+  }
+}
